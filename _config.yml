@@ -17,6 +17,7 @@ title: Pop-Up Newsroom
 description: >- # this means to ignore newlines until "baseurl:"
   Pop-Up Newsroom innovates collaborative reporting initiatives 
   in different countries and contexts – from elections to natural disasters. 
+tagline: Design Innovation for Collaborative Global Journalism
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: popupnewsroom

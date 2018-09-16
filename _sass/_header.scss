@@ -1,0 +1,61 @@
+// ======================================================================
+// Header
+
+.header {
+	overflow: hidden;
+  position: fixed; /* Set the navbar to fixed position */
+  top: 50px;
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  border: 1px solid;
+  margin: 0 auto;
+  max-width: $page-width;
+  h1, p {
+  	margin: 0;
+  	padding: 0;
+  	font-weight: normal;
+  	font-size: 1em;
+  }
+}
+
+.header .header-item {
+	border: 1px solid;
+	padding: $space-small/3;
+	font-size: 1.222em;
+	line-height: 1;
+}
+
+.header-item.title,
+.header-item.description {
+	width: 80%;
+}
+
+.header-item.navigation,
+.header-item.contact {
+	width: 20.002%
+}
+
+.header-item.title {
+	background-color: $black;
+	color: #fff;
+	border-color: $black;
+}
+
+.header-item.navigation,
+.header-item.contact a {
+	display: flex;
+	align-items: center;
+  justify-content: space-between;
+}
+
+.header-item.description,
+.header-item.navigation {
+	background-color: $porcelain;
+}
+
+.header-item.contact {
+	background-color: $koromiko;
+}
+
