@@ -1,0 +1,7 @@
+{% assign number = include.number %}
+{% assign label = include.label %}
+
+<div class="stat {{ label | downcase }}">
+    <div class="number">{{ number }}</div>
+    <div class="label">{{ label }}</div>
+</div>

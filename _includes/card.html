@@ -1,0 +1,15 @@
+{% assign title = include.title %}
+{% assign count = include.count %}
+{% assign graphic = include.image %}
+{% assign description = include.description %}
+
+<div class="card {{ title | downcase }}">
+    <div class="card-text">
+        <h3>{{ title }}</h3>
+        <span class="count">{{ count }}</span>
+        <p class="description">{{ description }}</p>
+    </div>
+    <div class="card-graphic">
+        <img src="/images/{{ graphic }}" alt="{{ title }}" />
+    </div>
+</div>

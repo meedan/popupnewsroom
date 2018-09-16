@@ -1,0 +1,71 @@
+// ======================================================================
+// Landing Page
+
+.page-section .p-header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 1;
+  color: #fff;
+  will-change: opacity;
+  background-size: cover;
+  background-position: center center;
+  height: 90vh;
+}
+
+.page-section .p-header-container {
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.page-section .p-header-container h2 {
+	font-weight: normal;
+	margin-top: 0;
+	margin-bottom: 100px;
+  max-width: 1080px;
+  font-size: 2.667em;
+  line-height: 1.25;
+}
+
+.lead {
+	font-size: 2.667em;
+	line-height: 1.25;
+}
+
+.content-wrapper h2, h3 {
+	font-weight: 500;
+}
+
+.content-wrapper p {
+	margin-bottom: 2.2em;
+}
+
+.content-wrapper p:not(.lead) {
+	font-weight: 500;
+}
+
+.approach {
+	background-color: $porcelain;
+	color: $bittersweet;
+}
+
+.grouped-column {
+	display: flex;
+	flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.grouped-column-content {
+	width: 60%;
+}
+
+.illustration {
+	display: flex;
+	align-items: center;
+  justify-content: center;
+	margin-bottom: 8.333em;
+}

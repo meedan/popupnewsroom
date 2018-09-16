@@ -1,0 +1,15 @@
+---
+# Main SASS file
+---
+// English fonts
+@import url('//fonts.googleapis.com/css?family=Montserrat:400,500');
+
+// import sass files
+@import "colors.scss";
+@import "variables.scss";
+
+// Defaults
+@import "base.scss";
+
+// Layouts
+@import "landing.scss";
