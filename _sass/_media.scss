@@ -1,0 +1,19 @@
+// ======================================================================
+// Media
+
+
+.media {
+	margin-top: $space-small;
+	margin-bottom: $space-small;
+}
+
+.media-caption {
+	margin-top: $space-small/3;
+	font-size: $small-text;
+	.media-caption-title {
+		font-weight: 500;
+		padding-bottom: $space-small/3;
+		border-bottom: 1px solid rgba(#fff, 0.6);
+		margin-bottom: $space-small/3;
+	}
+}

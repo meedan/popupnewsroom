@@ -24,32 +24,55 @@
 .page-section .p-header-container h2 {
 	font-weight: normal;
 	margin-top: 0;
-	margin-bottom: 100px;
+	margin-bottom: $space-medium/2.66;
   max-width: 1080px;
-  font-size: 2.667em;
-  line-height: 1.25;
+  font-size: $large-text;
+  line-height: $large-line-height;
+}
+
+// sections common
+.content-wrapper {
+	width: 100%;
+  margin: $space-small auto $space-large auto;
+	max-width: 1080px;
 }
 
 .lead {
-	font-size: 2.667em;
-	line-height: 1.25;
+	font-weight: normal;
+	font-size: $large-text;
+	line-height: $large-line-height;
 }
 
 .content-wrapper h2, h3 {
 	font-weight: 500;
 }
 
-.content-wrapper p {
-	margin-bottom: 2.2em;
+.content-wrapper h2 {
+	position: relative;
+	color: $black;
+	background-color: #fff;
+	padding: $space-small/8 $space-small $space-small/8 $space-small/4;
+	display: inline-block;
+	max-height: 50px;
+}
+
+.content-wrapper h2:after {
+	content: '';
+	position: absolute;
+	top: 50px;
+	left: 20px;
+	width: 0;
+	height: 0;
+	border-top: 15px solid #fff;
+	border-left: 20px solid transparent;
+}
+
+.content-wrapper p:not(:last-child) {
+	margin-bottom: $space-small;
 }
 
 .content-wrapper p:not(.lead) {
 	font-weight: 500;
-}
-
-.approach {
-	background-color: $porcelain;
-	color: $bittersweet;
 }
 
 .grouped-column {
@@ -67,5 +90,21 @@
 	display: flex;
 	align-items: center;
   justify-content: center;
-	margin-bottom: 8.333em;
+	margin-bottom: $space-large;
 }
+
+// sections
+.approach {
+	background-color: $porcelain;
+	color: $bittersweet;
+}
+
+.process {
+	background-color: $porcelain;
+}
+
+.experience {
+	background-color: $bittersweet;	
+	color: #fff;
+}
+

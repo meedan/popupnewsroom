@@ -1,0 +1,18 @@
+// ======================================================================
+// Stats
+
+.in-numbers {
+	display: flex;
+	margin-top: $space-medium;
+	margin-bottom: $space-medium;
+}
+
+.stat {
+	flex: 1 1 auto;
+	.number {
+		font-size: $number;
+	}
+	.label {
+		font-weight: 500;
+	}
+}

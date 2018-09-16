@@ -1,0 +1,42 @@
+// ======================================================================
+// Cards
+.cards {
+	margin-top: $space-medium;
+	margin-bottom: $space-medium;
+}
+
+.card {
+	display: flex;
+	margin-bottom: $space-small;
+}
+
+.card-text,
+.card-graphic {
+	max-width: 50%;
+	flex-basis: 50%;
+  flex: 1 1 auto;
+  margin: 0;
+  max-height: 540px;
+}
+
+.card-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: space-between;
+	background-color: $black;
+	color: #fff;
+	padding: $space-small;
+}
+
+.card-text h3,
+.card-text .count,
+.card-text .description {
+	margin: 0;
+}
+
+.card-text .count {
+	font-size: $number;
+	line-height: 1;
+	color: $cornflower-blue;
+}
