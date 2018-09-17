@@ -1,6 +1,10 @@
 // ======================================================================
 // Landing Page
 
+.page-section {
+	position: relative;
+}
+
 .page-section .p-header {
   position: relative;
   margin-top: -114px; /* Add a top margin to avoid content overlay */
@@ -15,10 +19,23 @@
   height: 90vh;
 }
 
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.page-section .p-header {
+		// top: 0;
+		height: auto;
+	}
+}
+
 .page-section .p-header-container {
 	font-weight: normal;
 	margin-top: 0;
 	margin-bottom: 0;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.page-section .p-header-container {
+		
+	}
 }
 
 .page-section .p-header-container h2 {
@@ -30,6 +47,12 @@
   line-height: $large-line-height;
 }
 
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.page-section .p-header-container h2 {
+		font-size: $medium-text;
+	}
+}
+
 // sections common
 .content-wrapper {
 	width: 100%;
@@ -37,10 +60,25 @@
 	max-width: $page-width;
 }
 
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.content-wrapper {
+		width: auto;
+		padding-left: $space-small/2;
+		padding-right: $space-small/2;
+	}
+}
+
 .lead {
 	font-weight: normal;
 	font-size: $large-text;
 	line-height: $large-line-height;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.lead {
+		font-weight: normal;
+		font-size: $medium-text;
+	}
 }
 
 .content-wrapper h2, h3 {
@@ -82,8 +120,16 @@
   justify-content: flex-end;
 }
 
-.grouped-column-content {
-	width: 60%;
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.grouped-column { 
+		display: inline-block;
+	}
+}
+
+@include responsive('min-width: #{$width-tablet}') {
+	.grouped-column-content {
+		width: 60%;
+	}
 }
 
 .illustration {

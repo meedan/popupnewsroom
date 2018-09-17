@@ -4,27 +4,36 @@
 .footer {
 	background-color: $black;
 	color: #fff;
-	h5 {
+}
+
+.footer h5 {
+	font-weight: normal;
+	font-size: 1em;
+}
+
+@include responsive('min-width: #{$width-tablet}') {
+	.footer h5 {
 		font-weight: normal;
 		font-size: $medium-text;
 	}
-	.social {
-		display: flex;
-		justify-content: flex-start;
-		ul {
-			list-style: none;
-			margin-right: $space-medium;
-			padding: 0;
-		}
-		li {
-			margin-bottom: $space-small/5;
-		}
-		ul:last-child a {
-			padding-bottom: $space-small/20;
-			border-bottom: 1px solid rgba(#fff, 0.2);
-		}
-		ul:last-child a:hover {
-			border-color: rgba(#fff, 0.5);
-		}
+}
+
+.footer .social {
+	display: flex;
+	justify-content: flex-start;
+	ul {
+		list-style: none;
+		margin-right: $space-medium;
+		padding: 0;
+	}
+	li {
+		margin-bottom: $space-small/5;
+	}
+	ul:last-child a {
+		padding-bottom: $space-small/20;
+		border-bottom: 1px solid rgba(#fff, 0.2);
+	}
+	ul:last-child a:hover {
+		border-color: rgba(#fff, 0.5);
 	}
 }

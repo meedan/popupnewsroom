@@ -3,7 +3,6 @@
 
 .header {
 	overflow: hidden;
-  position: fixed; /* Set the navbar to fixed position */
   top: 50px;
   z-index: 1;
   display: flex;
@@ -20,11 +19,25 @@
   }
 }
 
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.header {
+		max-width: 95%;
+		border: none;
+		top: 20px;
+	}
+}
+
 .header .header-item {
 	border: 1px solid;
 	padding: $space-small/3;
 	font-size: 1.222em;
 	line-height: 1;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.header .header-item {
+		font-size: 1em;
+	}
 }
 
 .header-item.title,
@@ -35,6 +48,33 @@
 .header-item.navigation,
 .header-item.contact {
 	width: 20.002%
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.header-item.title {
+		order: 0;
+	}
+	.header-item.description {
+		order: 1;
+	}
+	.header-item.navigation {
+		order: 2;
+		border-top: none;
+	}
+	.header-item.contact {
+		order: 3;
+		border-left: none;
+		border-top: none;
+	}
+	.header-item.title,
+	.header-item.description {
+		width: 100%;
+	}
+
+	.header-item.navigation,
+	.header-item.contact {
+		width: 50%;
+	}
 }
 
 .header-item.title {

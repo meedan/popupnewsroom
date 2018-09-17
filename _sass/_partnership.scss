@@ -6,6 +6,12 @@
 	margin-top: $space-medium;
 }
 
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.partnership {
+		flex-direction: column;
+	}
+}
+
 .partnership .logo {
 	margin-right: $space-medium;
 }

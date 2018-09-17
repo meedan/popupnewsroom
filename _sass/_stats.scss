@@ -7,6 +7,12 @@
 	margin-bottom: $space-medium;
 }
 
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.in-numbers {
+		flex-direction: column;
+	}
+}
+
 .stat {
 	flex: 1 1 auto;
 	.number {

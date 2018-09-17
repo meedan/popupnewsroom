@@ -10,13 +10,36 @@
 	margin-bottom: $space-small;
 }
 
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.card {
+		flex-direction: column;
+	}
+}
+
 .card-text,
 .card-graphic {
 	max-width: 50%;
 	flex-basis: 50%;
   flex: 1 1 auto;
   margin: 0;
-  max-height: 540px;
+  height: 540px;
+}
+
+.card-graphic {
+	background-size: cover;
+  background-position: center center;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.card-graphic {
+		order: -1;
+		height: 440px;
+	}
+	.card-text,
+	.card-graphic {
+		max-width: 100%;
+		flex-basis: 100%;
+	}
 }
 
 .card-text {
