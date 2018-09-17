@@ -24,7 +24,7 @@
 	.page-section .p-header {
 		margin-top: 0;
 		// background-size: 200%;
-		// height: 100vh;
+		height: 100vh;
 		// background-position: center 80px;
 	}
 }
@@ -72,8 +72,14 @@
 // sections common
 .content-wrapper {
 	width: 100%;
-  margin: $space-small auto $space-large auto;
+  margin: $space-small/2 auto $space-medium/2 auto;
 	max-width: $page-width;
+}
+
+@include responsive('min-width: #{$width-tablet}') {
+	.content-wrapper {
+	  margin: $space-small auto $space-large auto;
+	}
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
@@ -152,7 +158,12 @@
 	display: flex;
 	align-items: center;
   justify-content: center;
-	margin-bottom: $space-large;
+}
+
+@include responsive('min-width: #{$width-tablet}') {
+	.illustration {
+		margin-bottom: $space-large;
+	}
 }
 
 // sections

@@ -2,7 +2,6 @@
 // Header
 
 .header {
-	overflow: hidden;
   top: 50px;
   z-index: 1;
   display: flex;
@@ -56,6 +55,7 @@
 	}
 	.header-item.description {
 		order: 1;
+		line-height: 1.4;
 	}
 	.header-item.navigation {
 		order: 2;
@@ -95,7 +95,66 @@
 	background-color: $porcelain;
 }
 
-.header-item.contact {
-	background-color: $koromiko;
+.header-item.navigation {
+	cursor: pointer;
+	font-family: $font-stack;
 }
 
+.header-item.active,
+.header-item.navigation:hover,
+.header-item.navigation:focus {
+	background-color: $gorse;
+}
+
+.header-item.contact {
+	background-color: $koromiko;
+	cursor: pointer;
+}
+
+.header-item.contact:hover {
+	background-color: $tree-poppy;
+}
+
+.site-nav {
+	visibility: hidden;
+	border: 1px solid;
+	background-color: $white;
+	position: absolute;
+	top: calc(50% - 1px);
+	width: calc(20.002% + 2px);
+	right: -1px;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.site-nav {
+		border-top: 0;
+		border-bottom: 0;
+		width: calc(50% + 1px);
+		top: 100%;
+		left: -1px;
+		right: auto;
+		z-index: 1;
+	}
+}
+
+.site-nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.header .site-nav a {
+	display: block;
+	text-decoration: none;
+}
+
+.header .site-nav a:hover {
+	background-color: rgba($bittersweet, 0.6);
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.header .site-nav a {
+		border-top: 0;
+		border-right: 0;
+	}
+}

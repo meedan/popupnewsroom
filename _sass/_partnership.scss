@@ -9,6 +9,9 @@
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
 	.partnership {
 		flex-direction: column;
+		.logo {
+			margin-bottom: $space-small/2;
+		}
 	}
 }
 

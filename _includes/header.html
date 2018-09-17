@@ -1,6 +1,6 @@
 <header class="header">
 	<h1 class="header-item title">{{ site.title }}</h1>
-	<nav class="header-item navigation">
+	<button class="header-item navigation" type="button">
 		Menu 
 		<svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 18 12">
 		  <g fill="none" fill-rule="evenodd" transform="translate(-3 -6)">
@@ -8,7 +8,14 @@
 		    <path fill="#10212F" fill-rule="nonzero" d="M3,18 L21,18 L21,16 L3,16 L3,18 Z M3,13 L21,13 L21,11 L3,11 L3,13 Z M3,6 L3,8 L21,8 L21,6 L3,6 Z"/>
 		  </g>
 		</svg>
-	</nav>
+	</button>
 	<p class="header-item description">{{ site.tagline }}<p>
 	<p class="header-item contact"><a href="">Say hi {% include arrow.html %}</a></p>
+	<nav class="site-nav">
+		<ul>
+			<li><a class="header-item" href="#approach">Approach</a></li>
+			<li><a class="header-item" href="#process">Process</a></li>
+			<li><a class="header-item" href="#experience">Experience</a></li>
+		</ul>
+	</nav>
 </header>

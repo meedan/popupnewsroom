@@ -6,7 +6,7 @@
 			{% include header.html %}
 			<div class="p-header" style="background-image:url('/images/P3070182.jpg')">
         <div class="p-header-container">
-      		 <h1>
+      		 <h1 class="logo">
       			{% include logo.html %}
       			<span class="logo-text">
 				    	<span class="logo-text-original">{{ page.title }}</span>
@@ -17,7 +17,7 @@
       		</h2>
       	</div>
       </div>
-      <section class="content approach">
+      <section class="content approach" id="approach">
       	<div class="content-wrapper">
 	      	<h2>Approach</h2>
 	      	<p class="lead">We use human-centered design methods to engage local stakeholders, encourage coalition building, and generate creative and impactful projects.</p>
@@ -36,5 +36,6 @@
       {% include section_experience.html %}
       {% include footer.html %}
 		</div>
+		{% include js.html %}
 	</body>
 </html>

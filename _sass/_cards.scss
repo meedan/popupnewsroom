@@ -33,7 +33,7 @@
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
 	.card-graphic {
 		order: -1;
-		height: 440px;
+		height: 350px;
 	}
 	.card-text,
 	.card-graphic {
@@ -50,6 +50,12 @@
 	background-color: $black;
 	color: #fff;
 	padding: $space-small;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.card-text {
+		height: 350px;
+	}
 }
 
 .card-text h3,

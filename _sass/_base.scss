@@ -1,5 +1,5 @@
 body {
-	font: 18px/28px 'Montserrat', -apple-system, Helvetica, Helvetica Neue, Arial;
+	font: 18px/28px $font-stack;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }
@@ -50,8 +50,12 @@ figure {
   line-height: 1;
 }
 
+.logo svg {
+  display: inline-block;
+}
+
 .logo-text {
-  position: absolute;
+  position: relative;
 }
 
 .logo-text-original {
