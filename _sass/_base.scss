@@ -46,6 +46,13 @@ figure {
 
 // ======================================================================
 // Logo
+.logo {
+  line-height: 1;
+}
+
+.logo-text {
+  position: absolute;
+}
 
 .logo-text-original {
   color: transparent;

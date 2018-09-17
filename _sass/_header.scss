@@ -21,9 +21,9 @@
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
 	.header {
-		max-width: 95%;
+		max-width: 100%;
 		border: none;
-		top: 20px;
+		top: 0;
 	}
 }
 

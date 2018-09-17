@@ -16,13 +16,16 @@
   will-change: opacity;
   background-size: cover;
   background-position: center center;
+  background-repeat: no-repeat;
   height: 90vh;
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
 	.page-section .p-header {
-		// top: 0;
-		height: auto;
+		margin-top: 0;
+		// background-size: 200%;
+		// height: 100vh;
+		// background-position: center 80px;
 	}
 }
 
@@ -34,7 +37,19 @@
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
 	.page-section .p-header-container {
-		
+		width: 90%;
+	}
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.page-section .p-header-container svg {
+		width: 340px;
+	}
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.page-section .p-header-container h1 {
+		margin: 0;
 	}
 }
 
@@ -49,7 +64,8 @@
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
 	.page-section .p-header-container h2 {
-		font-size: $medium-text;
+		font-weight: 500;
+		font-size: $medium-text/1.4;
 	}
 }
 
