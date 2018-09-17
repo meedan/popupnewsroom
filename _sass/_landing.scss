@@ -20,6 +20,16 @@
   height: 90vh;
 }
 
+.page-section .p-header:before {
+	position: absolute;
+	content: '';
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba($cornflower-blue, 0.3);
+}
+
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
 	.page-section .p-header {
 		margin-top: 0;
@@ -33,6 +43,7 @@
 	font-weight: normal;
 	margin-top: 0;
 	margin-bottom: 0;
+	z-index: 2;
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {

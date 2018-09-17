@@ -2,8 +2,10 @@
 {% assign media = include.image %}
 {% assign caption_title = include.caption_title %}
 
-<div class="media media-image">
-      <img src="/images/{{ media }}" alt="{{ caption }}" />
+<div class="media">
+			<div class="media-image">
+      	<img src="/images/{{ media }}" alt="{{ caption }}" />
+      </div>
       <div class="media-caption">
             <div class="media-caption-title">{{ caption_title }}</div>
             <div class="media-caption-body">{{ caption }}</div>

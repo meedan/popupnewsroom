@@ -28,6 +28,7 @@
 .card-graphic {
 	background-size: cover;
   background-position: center center;
+  display: block;
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
