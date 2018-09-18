@@ -25,6 +25,20 @@ twitter_username: popupnewsroom
 # Build settings
 markdown: kramdown
 
+plugins:
+  - jekyll-seo-tag
+
+# Config elements specific to jeckyll-seo-tag
+# https://github.com/jekyll/jekyll-seo-tag
+twitter:
+  username: PopUp_EU
+logo: /images/logo@2x.png
+
+social:
+  name: Pop-Up Newsroom
+  links:
+    - https://twitter.com/PopUp_EU
+
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
