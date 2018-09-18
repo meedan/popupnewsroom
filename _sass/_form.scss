@@ -26,6 +26,14 @@
 	height: 4vw;
 }
 
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.contact-form label {
+		font-size: 3vw;
+		line-height: 8vw;
+		height: 8vw;
+	}
+}
+
 .contact-form input {
 	display: block;
 	border: 0;
@@ -54,12 +62,20 @@
 	}
 }
 
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.contact-form input {
+		font-size: 6vw;
+		line-height: 16vw;
+		height: 16vw;
+	}
+}
+
 .contact-form button {
 	background-color: $porcelain;
 	color: $black;
 	display: block;
 	border: 0;
-	margin: $space-small 0 0 0;
+	margin: $space-small 0 $space-medium 0;
 	padding: 0;
 	line-height: 8vw;
 	height: 8vw;
@@ -71,5 +87,13 @@
 	&:hover {
 		background-color: $black;
 		color: $porcelain;
+	}
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.contact-form button {
+		font-size: 6vw;
+		line-height: 16vw;
+		height: 16vw;
 	}
 }
