@@ -2,9 +2,12 @@
 // Stats
 
 .in-numbers {
-	display: flex;
 	margin-top: $space-medium;
 	margin-bottom: $space-medium;
+}
+
+.figures {
+	display: flex;
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {

@@ -41,7 +41,7 @@
 
 .header-item.title,
 .header-item.description {
-	width: 80%;
+	width: 79.9999%;
 }
 
 .header-item.navigation,
@@ -123,6 +123,10 @@
 	top: calc(50% - 1px);
 	width: calc(20.002% + 2px);
 	right: -1px;
+}
+
+.site-nav.is-visible {
+	visibility: visible;
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
