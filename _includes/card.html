@@ -5,6 +5,10 @@
 {% assign block_tag = include.block_tag | default: 'p' %}
 {% assign date = include.date | default: '' %}
 {% assign link = include.link | default: '' %}
+{% assign filter = include.filter | default: 'false' %}
+{% assign filter_class = 'tinted' %}
+
+
 
 {% if link != '' %}
 <a href="{{ link }}" title="{{ description }}">
@@ -23,7 +27,7 @@
         {% endif %}
         <{{ block_tag }} class="description">{{ description }}</{{ block_tag }}>
     </div>
-    <div class="card-graphic" style="background-image:url('/images/{{ graphic }}')"></div>
+    <div class="card-graphic{% if filter == 'true' %}{{ filter_class | prepend: ' ' }}{% endif %}" style="background-image:url('/images/{{ graphic }}')"></div>
 </div>
 {% if link != '' %}
 </a>
