@@ -59,10 +59,17 @@
 	}
 }
 
-.card-text h3,
+.card-text .title,
 .card-text .count,
 .card-text .description {
 	margin: 0;
+}
+
+.card-text .title span {
+	display: block;
+	margin-top: $space-small/3;
+	font-size: $small-text;
+	color: $porcelain;
 }
 
 .card-text .count {

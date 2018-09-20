@@ -1,0 +1,14 @@
+// ======================================================================
+// Updates
+.updates {
+	margin-top: $space-small;
+	margin-bottom: $space-small;
+}
+
+.update .card {
+	margin-bottom: 0;
+}
+
+.update .card .description {
+	order: -1;
+}

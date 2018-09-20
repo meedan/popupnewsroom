@@ -1,13 +1,30 @@
 {% assign title = include.title %}
-{% assign count = include.count %}
+{% assign count = include.count | default: '' %}
 {% assign graphic = include.image %}
-{% assign description = include.description %}
+{% assign description = include.description | default: '' %}
+{% assign block_tag = include.block_tag | default: 'p' %}
+{% assign date = include.date | default: '' %}
+{% assign link = include.link | default: '' %}
 
+{% if link != '' %}
+<a href="{{ link }}" title="{{ description }}">
+{% endif %}
 <div class="card {{ title | downcase }}">
     <div class="card-text">
-        <h3>{{ title }}</h3>
-        <!-- <span class="count">{{ count }}</span> -->
-        <p class="description">{{ description }}</p>
+        <h3 class="title">
+            {{ title }}
+            <!-- Show date only when needed -->
+            {% if date != '' %}
+                <span>{{ date }}</span>
+            {% endif %}
+        </h3>
+        {% if count != '' %}
+        	<span class="count">{{ count }}</span>
+        {% endif %}
+        <{{ block_tag }} class="description">{{ description }}</{{ block_tag }}>
     </div>
     <div class="card-graphic" style="background-image:url('/images/{{ graphic }}')"></div>
 </div>
+{% if link != '' %}
+</a>
+{% endif %}
