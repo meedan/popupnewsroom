@@ -8,6 +8,7 @@
                     {% capture image-url %}{{ update.image.url }}{% endcapture %}
                     {% capture update-tag %}{{ update.tag }}{% endcapture %}
                     {% capture update-title %}{{ update.title }}{% endcapture %}
+                    {% capture update-filter %}{{ update.image_filter }}{% endcapture %}
                     {% capture update-date %}{{ update.sys.created_at | date_to_string }}{% endcapture %}
                     <div class="update">
                     {% 
@@ -17,6 +18,7 @@
                         block_tag = "h3"
                         date=update-date
                         description=update-title
+                        filter=update-filter
                     %}
                     </div>
                 {% endfor %}

@@ -19,3 +19,23 @@ update:
     url: "//images.ctfassets.net/a1gidpdiipum/gqysYyFySI2QwOY2g2Ce4/fae3738cd96c1c19d8bd6f03a6c6cf46/Group_3.png"
   tag: Award
   image_filter: 'true'
+- sys:
+    id: 3rIp2Dx2ZqAOa608i66SIi
+    created_at: !ruby/object:DateTime 2018-09-21 17:14:22.721000000 Z
+    updated_at: !ruby/object:DateTime 2018-09-21 17:14:22.721000000 Z
+    content_type_id: update
+    revision: 1
+  title: That's a wrap from Pop-Up Newsroom Riksdagsvalet 2018. It has been a long
+    but incredibly inspiring five days working with more than 100 of Sweden's next
+    journalists.
+  path: newsroom-riksdagsvalet-2018
+  image:
+    sys:
+      id: 3Q8cfKP6nYwwWSyykCysOQ
+      created_at: !ruby/object:DateTime 2018-09-21 17:13:57.718000000 Z
+      updated_at: !ruby/object:DateTime 2018-09-21 17:13:57.718000000 Z
+    title: Newsroom Iceland Update
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/3Q8cfKP6nYwwWSyykCysOQ/7bf5ee9bc2f4b6a33f6829e70b3b7801/Bitmap.png"
+  tag: Update
+  image_filter: 'true'
