@@ -5,6 +5,7 @@ update:
     created_at: !ruby/object:DateTime 2018-09-21 16:23:31.415000000 Z
     updated_at: !ruby/object:DateTime 2018-09-21 16:23:31.415000000 Z
     content_type_id: update
+    revision: 1
   title: Our newsroom Verificado has won the 2018 award in Excellence in Collaboration
     and Partnerships at the Online Journalism Awards
   path: our-newsroom-verificado-has-won-the-2018-award-in-excellence-in
