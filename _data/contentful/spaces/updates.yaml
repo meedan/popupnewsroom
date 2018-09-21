@@ -3,9 +3,9 @@ update:
 - sys:
     id: mwawm0jlXUymMWWUgocgU
     created_at: !ruby/object:DateTime 2018-09-21 16:23:31.415000000 Z
-    updated_at: !ruby/object:DateTime 2018-09-21 16:23:31.415000000 Z
+    updated_at: !ruby/object:DateTime 2018-09-21 17:24:43.905000000 Z
     content_type_id: update
-    revision: 1
+    revision: 2
   title: Our newsroom Verificado has won the 2018 award in Excellence in Collaboration
     and Partnerships at the Online Journalism Awards
   path: our-newsroom-verificado-has-won-the-2018-award-in-excellence-in
@@ -18,13 +18,13 @@ update:
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/gqysYyFySI2QwOY2g2Ce4/fae3738cd96c1c19d8bd6f03a6c6cf46/Group_3.png"
   tag: Award
-  image_filter: 'true'
+  image_filter: 'false'
 - sys:
     id: 3rIp2Dx2ZqAOa608i66SIi
     created_at: !ruby/object:DateTime 2018-09-21 17:14:22.721000000 Z
-    updated_at: !ruby/object:DateTime 2018-09-21 17:14:22.721000000 Z
+    updated_at: !ruby/object:DateTime 2018-09-21 17:24:43.846000000 Z
     content_type_id: update
-    revision: 1
+    revision: 2
   title: That's a wrap from Pop-Up Newsroom Riksdagsvalet 2018. It has been a long
     but incredibly inspiring five days working with more than 100 of Sweden's next
     journalists.
@@ -39,3 +39,24 @@ update:
     url: "//images.ctfassets.net/a1gidpdiipum/3Q8cfKP6nYwwWSyykCysOQ/7bf5ee9bc2f4b6a33f6829e70b3b7801/Bitmap.png"
   tag: Update
   image_filter: 'true'
+- sys:
+    id: 34tpesKFRCuiEysKEGGMck
+    created_at: !ruby/object:DateTime 2018-09-21 17:20:50.211000000 Z
+    updated_at: !ruby/object:DateTime 2018-09-21 17:20:50.211000000 Z
+    content_type_id: update
+    revision: 1
+  title: Working with these amazing student journalists, fact checkers and technologists
+    for the past 5 days to build a scratch newsroom to monitor Sweden's election today
+    has been a total blast. Humbled and inspired by the next generation of journalists
+    in Sweden.
+  path: sweden
+  image:
+    sys:
+      id: XP9j1bgtsOUOskW2YqAuk
+      created_at: !ruby/object:DateTime 2018-09-21 17:20:24.473000000 Z
+      updated_at: !ruby/object:DateTime 2018-09-21 17:20:24.473000000 Z
+    title: Update abstract 2
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/XP9j1bgtsOUOskW2YqAuk/7004593979d74b417ab2467f5e8f0f06/Group_4.png"
+  tag: Update
+  image_filter: 'false'
