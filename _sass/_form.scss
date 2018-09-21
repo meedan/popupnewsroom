@@ -1,0 +1,99 @@
+// ======================================================================
+// Form
+
+.form-group {
+	border-top: 1px solid rgba(#fff, 0.5);
+	&:last-child {
+		border-bottom: 1px solid rgba(#fff, 0.5);	
+	}
+}
+
+.contact-form {
+	font-family: $font-stack-b;
+}
+
+.contact-form .form-group-last {
+	border-bottom: 1px solid rgba(#fff, 0.5);
+}
+
+.contact-form label {
+	display: block;
+	text-transform: uppercase;
+	font-family: $font-stack-b;
+	font-size: 1vw;
+	font-weight: 500;
+	line-height: 4vw;
+	height: 4vw;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.contact-form label {
+		font-size: 3vw;
+		line-height: 8vw;
+		height: 8vw;
+	}
+}
+
+.contact-form input {
+	display: block;
+	border: 0;
+	margin: 0;
+	padding: 0;
+	line-height: 8vw;
+	height: 8vw;
+	outline: 0;
+	width: 100%;
+	background-color: transparent;
+	font-family: $font-stack-b;
+	font-weight: 400;
+	font-size: 3vw;
+	color: #fff;
+	&::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	    color: rgba($porcelain, 0.8);
+	    opacity: 1; /* Firefox */
+	}
+
+	&:-ms-input-placeholder { /* Internet Explorer 10-11 */
+	    color: $porcelain;
+	}
+
+	&::-ms-input-placeholder { /* Microsoft Edge */
+	    color: $porcelain;
+	}
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.contact-form input {
+		font-size: 6vw;
+		line-height: 16vw;
+		height: 16vw;
+	}
+}
+
+.contact-form button {
+	background-color: $porcelain;
+	color: $black;
+	display: block;
+	border: 0;
+	margin: $space-small 0 $space-medium 0;
+	padding: 0;
+	line-height: 8vw;
+	height: 8vw;
+	outline: 0;
+	width: 100%;
+	font-family: $font-stack-b;
+	font-size: 3vw;
+	cursor: pointer;
+	&:hover {
+		background-color: $black;
+		color: $porcelain;
+	}
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.contact-form button {
+		font-size: 6vw;
+		line-height: 16vw;
+		height: 16vw;
+	}
+}

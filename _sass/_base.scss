@@ -2,6 +2,8 @@ body {
 	font: 18px/28px $font-stack;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
+  word-wrap: break-word; /* force long words to break */
+  overflow-wrap: break-word; /* newer syntax standard that replaces word-wrap */
 }
 
 * {
@@ -46,6 +48,7 @@ figure {
 
 // ======================================================================
 // Logo
+
 .logo {
   line-height: 1;
 }
@@ -60,4 +63,23 @@ figure {
 
 .logo-text-original {
   color: transparent;
+}
+
+// ======================================================================
+// Image Filters
+
+.tinted {
+  position: relative;
+  z-index: 0;
+  &::before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba($cornflower-blue, 0.2);
+    z-index: 1;
+  }
 }

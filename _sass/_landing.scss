@@ -15,11 +15,10 @@
   color: #fff;
   will-change: opacity;
   background-size: cover;
-  background-position: center center;
+  background-position: top center;
   background-repeat: no-repeat;
-  height: 90vh;
+  height: 120vh;
 }
-
 .page-section .p-header:before {
 	position: absolute;
 	content: '';
@@ -178,7 +177,8 @@
 }
 
 // sections
-.approach {
+.approach,
+.latest {
 	background-color: $porcelain;
 	color: $bittersweet;
 }
@@ -187,7 +187,8 @@
 	background-color: $porcelain;
 }
 
-.experience {
+.experience, 
+.contact {
 	background-color: $bittersweet;	
 	color: #fff;
 }

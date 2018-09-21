@@ -2,13 +2,16 @@
 // Stats
 
 .in-numbers {
-	display: flex;
 	margin-top: $space-medium;
 	margin-bottom: $space-medium;
 }
 
+.figures {
+	display: flex;
+}
+
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
-	.in-numbers {
+	.figures {
 		flex-direction: column;
 	}
 }
@@ -16,9 +19,12 @@
 .stat {
 	flex: 1 1 auto;
 	.number {
+		font-family: $font-stack-b;
 		font-size: $number;
+		font-weight: 300;
 	}
 	.label {
-		font-weight: 500;
+		font-family: $font-stack-b;
+		font-weight: 400;
 	}
 }
