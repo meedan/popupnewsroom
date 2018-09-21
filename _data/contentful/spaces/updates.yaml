@@ -1,0 +1,20 @@
+---
+update:
+- sys:
+    id: mwawm0jlXUymMWWUgocgU
+    created_at: !ruby/object:DateTime 2018-09-21 16:23:31.415000000 Z
+    updated_at: !ruby/object:DateTime 2018-09-21 16:23:31.415000000 Z
+    content_type_id: update
+  title: Our newsroom Verificado has won the 2018 award in Excellence in Collaboration
+    and Partnerships at the Online Journalism Awards
+  path: our-newsroom-verificado-has-won-the-2018-award-in-excellence-in
+  image:
+    sys:
+      id: gqysYyFySI2QwOY2g2Ce4
+      created_at: !ruby/object:DateTime 2018-09-21 16:22:35.000000000 Z
+      updated_at: !ruby/object:DateTime 2018-09-21 16:22:35.000000000 Z
+    title: Update Abstract graphic
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/gqysYyFySI2QwOY2g2Ce4/fae3738cd96c1c19d8bd6f03a6c6cf46/Group_3.png"
+  tag: Award
+  image_filter: 'true'

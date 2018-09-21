@@ -50,3 +50,16 @@ exclude:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+# Get data from Contentful
+contentful:
+  output: true
+  spaces:
+    - updates: 
+        space: ENV_CONTENTFUL_PN_SPACE_ID
+        access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        cda_query:
+          content_type: 'update'
+        all_entries: true
+        destination: 'contentful/spaces/'
+

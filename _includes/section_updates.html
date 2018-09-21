@@ -1,28 +1,26 @@
+{% assign updates = site.data.contentful.spaces.updates.update %}
+{% if updates.size != 0 %}
 <section class="content latest" id="latest">
       <div class="content-wrapper">
             <h2>Latest</h2>
             <div class="updates">
-            	<div class="update">
-    			{% 
-                    include card.html 
-                    image="update_abstract.png"
-                    title="Award"
-                    block_tag = "h3"
-                    date = "May 26th 2018"
-                    description="Our newsroom Verificado has won the 2018 award in Excellence in Collaboration and Partnerships at the Online Journalism Awards"
-                %}
-              	</div>
-              	<div class="update">
-                {% 
-                    include card.html 
-                    image="update_photo.png"
-                    title="Award"
-                    block_tag = "h3"
-                    date = "May 26th 2018"
-                    description="Our newsroom Verificado has won the 2018 award in Excellence in Collaboration and Partnerships at the Online Journalism Awards"
-                    filter = 'true'
-                %}
+                {% for update in updates %}
+                    {% capture image-url %}{{ update.image.url }}{% endcapture %}
+                    {% capture update-tag %}{{ update.tag }}{% endcapture %}
+                    {% capture update-title %}{{ update.title }}{% endcapture %}
+                    {% capture update-date %}{{ update.sys.created_at | date_to_string }}{% endcapture %}
+                    <div class="update">
+                    {% 
+                        include card.html 
+                        image=image-url
+                        title=update-tag
+                        block_tag = "h3"
+                        date=update-date
+                        description=update-title
+                    %}
+                    </div>
+                {% endfor %}
             </div>
-		</div>
       </div>
 </section>
+{% endif %}
