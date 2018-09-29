@@ -1,0 +1,95 @@
+// ======================================================================
+// Table styles
+.table {
+  z-index: 1;
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  border: 1px solid;
+  margin: 0 auto;
+  max-width: $page-width;
+  h1, p {
+  	margin: 0;
+  	padding: 0;
+  	font-weight: normal;
+  	font-size: 1em;
+  }
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.table {
+		max-width: 100%;
+		border: none;
+		top: 0;
+	}
+}
+
+.table .table-item {
+	border: 1px solid;
+	padding: $space-small/3;
+	font-size: 1.222em;
+	line-height: 1;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.table .table-item {
+		font-size: 1em;
+	}
+}
+
+.table-item.title,
+.table-item.description,
+.table-item.link {
+	width: 100%;
+}
+
+.table-item.location,
+.table-item.date {
+	flex: 1 0 50%;
+}
+
+.table-item.description {
+	line-height: 1.4;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.table-item.description {
+		border-top: none;
+	}
+
+	.table-item.location {
+		border-right: none;
+	}
+
+	.table-item.link {
+		border-top: none;
+	}
+}
+
+.table-item.title {
+	background-color: $black;
+	color: #fff;
+	border-color: $black;
+}
+
+.table-item.location,
+.table-item.date,
+.table-item.description {
+	background-color: $porcelain;
+}
+
+.table-item.link {
+	background-color: $bittersweet;
+	cursor: pointer;
+	color: $black;
+}
+
+.table-item.link a {
+	display: flex;
+	align-items: center;
+  justify-content: space-between;
+}
+
+.table-item.link:hover {
+	background-color: darken($bittersweet, 5%);
+}

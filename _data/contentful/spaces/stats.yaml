@@ -1,0 +1,34 @@
+---
+stat:
+- sys:
+    id: 1sc1R0LeSUqoIMAgSCwiMC
+    created_at: !ruby/object:DateTime 2018-09-29 18:23:33.683000000 Z
+    updated_at: !ruby/object:DateTime 2018-09-29 18:24:49.029000000 Z
+    content_type_id: stat
+    revision: 2
+  label: Media Partners
+  number: '90'
+- sys:
+    id: 2uhNVzJhkcwO04kQyi0K2g
+    created_at: !ruby/object:DateTime 2018-09-29 18:23:45.844000000 Z
+    updated_at: !ruby/object:DateTime 2018-09-29 18:24:37.298000000 Z
+    content_type_id: stat
+    revision: 2
+  label: Journalists trained
+  number: 100+
+- sys:
+    id: 6NExKJSg7eaG2wuesOquUW
+    created_at: !ruby/object:DateTime 2018-09-29 18:23:56.451000000 Z
+    updated_at: !ruby/object:DateTime 2018-09-29 18:24:21.960000000 Z
+    content_type_id: stat
+    revision: 2
+  label: Stories published
+  number: '400'
+- sys:
+    id: 4Kpn4qveKsY2u60ag8IIs2
+    created_at: !ruby/object:DateTime 2018-09-29 18:24:11.590000000 Z
+    updated_at: !ruby/object:DateTime 2018-09-29 18:24:11.591000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Videos published
+  number: '100'

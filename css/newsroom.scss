@@ -1,0 +1,68 @@
+---
+# Newsroom SASS file
+---
+// import sass files
+@import "colors.scss";
+@import "variables.scss";
+@import "mixins.scss";
+
+.newsroom .p-header {
+	justify-content: flex-start;
+	margin-top: 0;
+	background-size: 100%;
+	height: auto;
+}
+
+.newsroom .p-header-image img {
+	display: block;
+	object-fit: cover;
+  width: 100%;
+}
+
+.newsroom .p-header .p-header-container {
+	width: 90%;
+	max-width: $page-width;
+}
+
+.newsroom .p-header-container .logo {
+	position: absolute;
+	top: 0;
+}
+
+.newsroom .p-header-container svg {
+	width: 200px;
+}
+
+.newsroom .newsroom-header {
+	width: 100%;
+  margin: $space-small/2 auto $space-medium/2 auto;
+	max-width: $page-width;
+	display: flex;
+	flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.newsroom .newsroom-header {
+		width: auto;
+		margin-top: 0;
+	}
+}
+
+@include responsive('min-width: #{$width-tablet}') {
+	.newsroom .newsroom-header-content {
+		width: 60%;
+		margin-top: -5em;
+	}
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.newsroom .newsroom-header-content { 
+		display: inline-block;
+	}
+}
+
+.newsroom .newsroom-content {
+	color: #fff;
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+      {% include head.html %}
+      <body class="page-section newsroom">
+            <div class="site-wrapper">
+                  <div class="p-header" style="background-image:url('//images.ctfassets.net/a1gidpdiipum/K4Wtyp0GKAoia2cGq0AWo/271cecb5406972630e62e11d5b1c12ac/Stand-up-meeting-to-start-the-day-June-30_-2018.jpg')">
+                    <div class="p-header-image" style="visibility: hidden;">
+                      <img src="//images.ctfassets.net/a1gidpdiipum/K4Wtyp0GKAoia2cGq0AWo/271cecb5406972630e62e11d5b1c12ac/Stand-up-meeting-to-start-the-day-June-30_-2018.jpg" />
+                    </div>
+                    <div class="p-header-container">
+                               <h1 class="logo">
+                                    {% include logo.html %}
+                                    <span class="logo-text">
+                                          <span class="logo-text-original">{{ page.title }}</span>
+                                          </span>
+                              </h1>
+                        </div>
+                  </div>
+                  <div class="newsroom-content-wrapper" style="background-color: #FF941F;">
+                    <div class="newsroom-header">
+                      <div class="newsroom-header-content">
+                        {% include table.html %}
+                      </div>
+                    </div>
+                    <div class="newsroom-content content-wrapper">
+                      <div class="grouped-column">
+                        <div class="grouped-column-content">
+                          <p>Our most successful and ambitious project to date, Verificado 2018 launched with local leads Animal Politico and AJ+ Espanol and just a handful of newsrooms. Over the course of several months Verificado grew from an idea to a coalition of 90 newsrooms, universities, and civil society organizations.</p>
+                          <p>Gaining hundreds of thousands of followers on Twitter and Facebook, Verificado quickly became an example to all Mexicans of the potential for a collaborative coalition to combat disinformation, fact check politicians’ claims, create visual anti-disinformation content, and broadly to dampen the impact and reach of disinformation and misleading information during the Mexican elections. </p>
+                        </div>
+                      </div>
+                      <div class="in-numbers">
+                        <h3>In numbers</h3>
+                        <div class="figures">
+                              {%
+                                    include stat.html
+                                    number="4"
+                                    label="Initiatives so far"
+                              %}
+                              {%
+                                    include stat.html
+                                    number="3"
+                                    label="Award nominations"
+                              %}
+                              {%
+                                    include stat.html
+                                    number="300+"
+                                    label="Journalists trained"
+                              %}
+                              {%
+                                    include stat.html
+                                    number="100+"
+                                    label="Organizations engaged"
+                              %}
+                        </div>
+                      </div>
+                      {% 
+                            include media_image.html 
+                            image="P3070187.jpg"
+                            caption_title="Collaboration Against Misinformation"
+                            caption="At the Verificado 2018 Pop-Up Newsroom, we worked with over 100 journalists from across Mexico to design collaborative processes for monitoring and debunking misinformation spread via social networks."
+                      %}
+                    </div>
+                  </div>
+                  {% include footer.html %}
+            </div>
+            {% include js.html %}
+      </body>
+</html>

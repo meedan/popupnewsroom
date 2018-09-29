@@ -1,0 +1,18 @@
+---
+link:
+- sys:
+    id: 3NZZdwz2KQmWu6Guo6mSug
+    created_at: !ruby/object:DateTime 2018-09-29 18:05:38.775000000 Z
+    updated_at: !ruby/object:DateTime 2018-09-29 18:05:38.775000000 Z
+    content_type_id: link
+    revision: 1
+  label: verificado.mx
+  url: https://verificado.mx/
+- sys:
+    id: 4K3f2WCTR6iaQCCqgaqyai
+    created_at: !ruby/object:DateTime 2018-09-29 18:10:16.468000000 Z
+    updated_at: !ruby/object:DateTime 2018-09-29 18:10:16.468000000 Z
+    content_type_id: link
+    revision: 1
+  label: Twitter
+  url: https://twitter.com/carlosbravoreg/status/1012496238564917248

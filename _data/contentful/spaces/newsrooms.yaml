@@ -1,0 +1,97 @@
+---
+newsroom:
+- sys:
+    id: 6JqjX8Q5rOwouC02eAyOCS
+    created_at: !ruby/object:DateTime 2018-09-29 18:25:40.734000000 Z
+    updated_at: !ruby/object:DateTime 2018-09-29 18:34:03.630000000 Z
+    content_type_id: newsroom
+    revision: 2
+  title: Verificado
+  description: The Verificado 2018 team gathered in a collaborative Pop-Up Newsroom
+    to cover election day to provide reliable, clear information to citizens in real
+    time.
+  hero_image:
+    sys:
+      id: K4Wtyp0GKAoia2cGq0AWo
+      created_at: !ruby/object:DateTime 2018-09-29 09:38:14.464000000 Z
+      updated_at: !ruby/object:DateTime 2018-09-29 09:38:14.464000000 Z
+    title: Verificado Hero Image
+    description: Stand up meeting to start the day June 30, 2018
+    url: "//images.ctfassets.net/a1gidpdiipum/K4Wtyp0GKAoia2cGq0AWo/271cecb5406972630e62e11d5b1c12ac/Stand-up-meeting-to-start-the-day-June-30_-2018.jpg"
+  date: March - July 2018
+  external_link:
+    sys:
+      id: 3NZZdwz2KQmWu6Guo6mSug
+      created_at: !ruby/object:DateTime 2018-09-29 18:05:38.775000000 Z
+      updated_at: !ruby/object:DateTime 2018-09-29 18:05:38.775000000 Z
+      content_type_id: link
+      revision: 1
+    label: verificado.mx
+    url: https://verificado.mx/
+  location:
+    sys:
+      id: 7B0D8tpJMAO4o26Q2eUgam
+      created_at: !ruby/object:DateTime 2018-09-29 18:05:59.177000000 Z
+      updated_at: !ruby/object:DateTime 2018-09-29 18:05:59.177000000 Z
+      content_type_id: location
+      revision: 1
+    title: Mexico
+  modules:
+  - sys:
+      id: 6uejQOKdTUmSessysoCkuO
+      created_at: !ruby/object:DateTime 2018-09-29 18:06:59.580000000 Z
+      updated_at: !ruby/object:DateTime 2018-09-29 18:06:59.580000000 Z
+      content_type_id: moduleText
+      revision: 1
+    title: About Verificado
+    content: "Our most successful and ambitious project to date, Verificado 2018 launched
+      with local leads Animal Politico and AJ+ Espanol and just a handful of newsrooms.
+      Over the course of several months Verificado grew from an idea to a coalition
+      of 90 newsrooms, universities, and civil society organizations.\n\nGaining hundreds
+      of thousands of followers on Twitter and Facebook, Verificado quickly became
+      an example to all Mexicans of the potential for a collaborative coalition to
+      combat disinformation, fact check politicians’ claims, create visual anti-disinformation
+      content, and broadly to dampen the impact and reach of disinformation and misleading
+      information during the Mexican elections. "
+  - sys:
+      id: 62sPpqKmwo0uCUeeK8q486
+      created_at: !ruby/object:DateTime 2018-09-29 18:10:29.527000000 Z
+      updated_at: !ruby/object:DateTime 2018-09-29 18:10:29.527000000 Z
+      content_type_id: modulePullquote
+      revision: 1
+    pullquote_by: Carlos Bravo Regidor
+    content: 'Everyone is celebrating the end of the elections. I''m sad about it
+      for one reason: VerificadoMX is also coming to an end. Who is going to dedicate
+      themselves to creating antibodies against the fake news virus now?'
+    source:
+      sys:
+        id: 4K3f2WCTR6iaQCCqgaqyai
+  - sys:
+      id: 6xwm8dOCasY8GyQWMeaUCU
+      created_at: !ruby/object:DateTime 2018-09-29 18:25:07.318000000 Z
+      updated_at: !ruby/object:DateTime 2018-09-29 18:25:21.029000000 Z
+      content_type_id: moduleInNumbers
+      revision: 2
+    title: Verificado
+    stats:
+    - sys:
+        id: 1sc1R0LeSUqoIMAgSCwiMC
+    - sys:
+        id: 2uhNVzJhkcwO04kQyi0K2g
+    - sys:
+        id: 6NExKJSg7eaG2wuesOquUW
+    - sys:
+        id: 4Kpn4qveKsY2u60ag8IIs2
+  - sys:
+      id: 5Ewug9o1LaWEK6GkMsaGYG
+      created_at: !ruby/object:DateTime 2018-09-29 18:20:21.104000000 Z
+      updated_at: !ruby/object:DateTime 2018-09-29 18:22:25.251000000 Z
+      content_type_id: moduleItemHalf
+      revision: 2
+    title: Verificado Photos
+    content:
+    - sys:
+        id: 1AZNUchuu0GwsiYwKgc8gE
+    - sys:
+        id: 3f36B3iOM0ms4q4UO6EuAE
+  url: verificado

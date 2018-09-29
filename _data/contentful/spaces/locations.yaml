@@ -1,0 +1,9 @@
+---
+location:
+- sys:
+    id: 7B0D8tpJMAO4o26Q2eUgam
+    created_at: !ruby/object:DateTime 2018-09-29 18:05:59.177000000 Z
+    updated_at: !ruby/object:DateTime 2018-09-29 18:05:59.177000000 Z
+    content_type_id: location
+    revision: 1
+  title: Mexico
