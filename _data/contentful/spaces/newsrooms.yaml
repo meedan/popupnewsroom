@@ -3,9 +3,9 @@ newsroom:
 - sys:
     id: 6JqjX8Q5rOwouC02eAyOCS
     created_at: !ruby/object:DateTime 2018-09-29 18:25:40.734000000 Z
-    updated_at: !ruby/object:DateTime 2018-09-29 18:34:03.630000000 Z
+    updated_at: !ruby/object:DateTime 2018-09-30 16:20:29.183000000 Z
     content_type_id: newsroom
-    revision: 2
+    revision: 5
   title: Verificado
   description: The Verificado 2018 team gathered in a collaborative Pop-Up Newsroom
     to cover election day to provide reliable, clear information to citizens in real
@@ -94,4 +94,21 @@ newsroom:
         id: 1AZNUchuu0GwsiYwKgc8gE
     - sys:
         id: 3f36B3iOM0ms4q4UO6EuAE
+  color:
+    sys:
+      id: 7GOkr6iXkIQEq8IqmMm2Wo
+      created_at: !ruby/object:DateTime 2018-09-30 15:54:23.407000000 Z
+      updated_at: !ruby/object:DateTime 2018-09-30 15:54:23.407000000 Z
+      content_type_id: color
+      revision: 1
+    name: Orange
+    value: "#FF941F"
+    thumbnail:
+      sys:
+        id: 2tipmvhO4UY4kWqKkmGGEc
+        created_at: !ruby/object:DateTime 2018-09-30 15:54:18.138000000 Z
+        updated_at: !ruby/object:DateTime 2018-09-30 15:54:18.138000000 Z
+      title: popup orange
+      description: 
+      url: "//images.ctfassets.net/a1gidpdiipum/2tipmvhO4UY4kWqKkmGGEc/14072da181f9815286b46e14f940cfd0/popup_orange.png"
   url: verificado

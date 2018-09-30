@@ -100,9 +100,9 @@ contentful:
 
 
 # Generate pages from Contentful data files
-# page_gen-dirs: true
-# page_gen:
-#   - data: 'contentful.spaces.newsrooms.newsroom'
-#     template: 'newsroom'
-#     name: 'url'
-#     dir: 'newsrooms'
+page_gen-dirs: true
+page_gen:
+  - data: 'contentful.spaces.newsrooms.newsroom'
+    template: 'newsroom'
+    name: 'url'
+    dir: 'newsrooms'

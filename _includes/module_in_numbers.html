@@ -1,0 +1,17 @@
+<div class="in-numbers">
+  <h3>In numbers</h3>
+  <div class="figures">
+    {% assign stats = site.data.contentful.spaces.stats.stat %}
+    {% for s in module.stats %}
+      {% for stat in stats %}
+        {% if stat.sys.id == s.sys.id %}
+        {%
+              include stat.html
+              number=stat.number
+              label=stat.label
+        %}
+        {% endif %}
+      {% endfor %}
+    {% endfor %}
+  </div>
+</div>

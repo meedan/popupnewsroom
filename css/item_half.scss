@@ -1,0 +1,20 @@
+---
+# Item Half SASS file
+---
+// import sass files
+@import "colors.scss";
+@import "variables.scss";
+@import "mixins.scss";
+
+@include responsive('min-width: #{$width-tablet}') {
+	.item-half {
+	  display: flex;
+	}
+	.item {
+	  flex: 1 1 50%;
+	  margin-right: $space-small;
+	}
+	.item:last-child {
+	  margin-right: 0;
+	}
+}

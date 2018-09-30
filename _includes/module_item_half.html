@@ -1,0 +1,18 @@
+<div class="item-half">
+  {% assign media = site.data.contentful.spaces.media.media %}
+  {% for c in module.content %}
+    {% for m in media %}
+      {% if c.sys.id == m.sys.id %}
+        <div class="item">
+          {% 
+            include media_image.html 
+            image=m.image.url
+            caption_title=m.caption_title
+            caption=m.caption
+          %}
+        </div>
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+</div>
+<link rel="preload" href="/css/item_half.css" as="style" onload="this.onload=null;this.rel='stylesheet'">

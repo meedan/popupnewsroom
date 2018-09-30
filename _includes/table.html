@@ -1,8 +1,13 @@
-{% assign title = include.title %}
+{% assign newsroom_title = include.newsroom_title %}
+{% assign newsroom_location = include.newsroom_location %}
+{% assign newsroom_date = include.newsroom_date %}
+{% assign newsroom_description = include.newsroom_description %}
+{% assign newsroom_external_link_label = include.newsroom_external_link_label %}
+{% assign newsroom_external_link_url = include.newsroom_external_link_url %}
 <header class="table">
-    <h1 class="table-item title">{{ page.title }}</h1>
-    <p class="table-item location">Mexico<p>
-    <p class="table-item date">June 29, 2018<p>
-    <p class="table-item description">The Verificado 2018 team gathered in a collaborative Pop-Up Newsroom to cover election day to provide reliable, clear information to citizens in real time.<p>
-    <p class="table-item link"><a href="">Say hi {% include arrow.html %}</a></p>
+    <h1 class="table-item title">{{ newsroom_title }}</h1>
+    <p class="table-item location">{{ newsroom_location }}<p>
+    <p class="table-item date">{{ newsroom_date }}<p>
+    <p class="table-item description">{{ newsroom_description }}<p>
+    <p class="table-item link"><a href="{{ newsroom_external_link_url }}">{{ newsroom_external_link_label }} {% include arrow.html %}</a></p>
 </header>
