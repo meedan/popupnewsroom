@@ -3,9 +3,9 @@ newsroom:
 - sys:
     id: 6JqjX8Q5rOwouC02eAyOCS
     created_at: !ruby/object:DateTime 2018-09-29 18:25:40.734000000 Z
-    updated_at: !ruby/object:DateTime 2018-09-30 16:20:29.183000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-01 15:43:05.884000000 Z
     content_type_id: newsroom
-    revision: 5
+    revision: 6
   title: Verificado
   description: The Verificado 2018 team gathered in a collaborative Pop-Up Newsroom
     to cover election day to provide reliable, clear information to citizens in real
@@ -94,15 +94,32 @@ newsroom:
         id: 1AZNUchuu0GwsiYwKgc8gE
     - sys:
         id: 3f36B3iOM0ms4q4UO6EuAE
+  sections:
+  - sys:
+      id: 4VwfKQCz1Swo8GM0K6COmM
+      created_at: !ruby/object:DateTime 2018-10-01 15:40:01.474000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-01 15:40:01.474000000 Z
+      content_type_id: section
+      revision: 1
+    title: Partners
+    color:
+      sys:
+        id: 34g9GaUx6UwK20Ui4Y0oOu
+    modules:
+    - sys:
+        id: 42pCDJa75YuIkwie02maoC
+    - sys:
+        id: 6KQDZdSm76kAcO6oI4ykYQ
   color:
     sys:
       id: 7GOkr6iXkIQEq8IqmMm2Wo
       created_at: !ruby/object:DateTime 2018-09-30 15:54:23.407000000 Z
-      updated_at: !ruby/object:DateTime 2018-09-30 15:54:23.407000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-01 16:32:32.448000000 Z
       content_type_id: color
-      revision: 1
+      revision: 2
     name: Orange
     value: "#FF941F"
+    text: "#FFFFFF"
     thumbnail:
       sys:
         id: 2tipmvhO4UY4kWqKkmGGEc

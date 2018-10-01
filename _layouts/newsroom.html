@@ -35,9 +35,15 @@ custom_js_lib: loadCSS
                       </div>
                     </div>
                     <div class="newsroom-content content-wrapper">
-                      {% include render_modules.html %}
+                      {% 
+                        include render_modules.html 
+                        modules=page.modules
+                      %}
                     </div>
                   </div>
+                  {% if page.sections %}
+                    {% include render_sections.html %}
+                  {% endif %}
                   {% include footer.html %}
             </div>
             {% include js.html %}

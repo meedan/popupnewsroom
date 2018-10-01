@@ -11,5 +11,10 @@ $(document).ready(function() {
 		dots: true,
 	});
 
+	// Slick Slider for updates
+	$('.cards').slick({
+		dots: true,
+	});
+
 
 });

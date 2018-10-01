@@ -1,0 +1,36 @@
+---
+color:
+- sys:
+    id: 7GOkr6iXkIQEq8IqmMm2Wo
+    created_at: !ruby/object:DateTime 2018-09-30 15:54:23.407000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-01 16:32:32.448000000 Z
+    content_type_id: color
+    revision: 2
+  name: Orange
+  value: "#FF941F"
+  text: "#FFFFFF"
+  thumbnail:
+    sys:
+      id: 2tipmvhO4UY4kWqKkmGGEc
+      created_at: !ruby/object:DateTime 2018-09-30 15:54:18.138000000 Z
+      updated_at: !ruby/object:DateTime 2018-09-30 15:54:18.138000000 Z
+    title: popup orange
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/2tipmvhO4UY4kWqKkmGGEc/14072da181f9815286b46e14f940cfd0/popup_orange.png"
+- sys:
+    id: 34g9GaUx6UwK20Ui4Y0oOu
+    created_at: !ruby/object:DateTime 2018-10-01 14:56:00.990000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-01 16:32:44.225000000 Z
+    content_type_id: color
+    revision: 2
+  name: Bittersweet Pink
+  value: "#FF6666"
+  text: "#FFFFFF"
+  thumbnail:
+    sys:
+      id: 2xOUc99HuUusY8u448wmyU
+      created_at: !ruby/object:DateTime 2018-10-01 14:55:56.036000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-01 14:55:56.036000000 Z
+    title: Bittersweet Pink
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/2xOUc99HuUusY8u448wmyU/55cf2b70468a222e77ae6f65455b79f2/Pop-up_Newsroom.png"

@@ -29,6 +29,12 @@
 	background-size: cover;
   background-position: center center;
   display: block;
+  background-color: #fff;
+  background-repeat: no-repeat;
+}
+
+.card-graphic.logo {
+	background-size: 45%;
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {

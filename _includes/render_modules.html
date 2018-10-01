@@ -1,12 +1,7 @@
+{% assign modules = include.modules %}
 {% for module in page.modules %}
-	{% case module.sys.content_type_id %}
-		{% when 'moduleText' %}
-			{% include module_text.html %}	
-		{% when 'modulePullquote' %}
-			{% include module_pull_quote.html %}
-		{% when 'moduleInNumbers' %}
-			{% include module_in_numbers.html %}
-		{% when 'moduleItemHalf' %}
-			{% include module_item_half.html %}
-	{% endcase %}
+	{% 
+		include cases_modules.html 
+		module=module
+	%}
 {% endfor %}
