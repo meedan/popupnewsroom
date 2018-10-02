@@ -1,0 +1,36 @@
+---
+landingPage:
+- sys:
+    id: 56dG8WJyH6ykKkUmACQYII
+    created_at: !ruby/object:DateTime 2018-10-02 15:20:51.202000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-02 15:58:13.772000000 Z
+    content_type_id: landingPage
+    revision: 2
+  title: Pop-Up Newsroom
+  url: "/"
+  description: Pop-Up Newsroom innovates collaborative reporting initiatives in different
+    countries and contexts – from elections to natural disasters.
+  cover_image:
+    sys:
+      id: 6cC45wiX6wAEqemcyCwQSK
+      created_at: !ruby/object:DateTime 2018-10-02 15:20:30.609000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-02 15:20:30.609000000 Z
+    title: Pop-Up Newsroom Cover Image
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/6cC45wiX6wAEqemcyCwQSK/0bc36f5e09fce2d7f3f76968b27e741d/P3070182.jpg"
+  sections:
+  - sys:
+      id: 7505Qq4SS4iuWOoMMeCO6u
+      created_at: !ruby/object:DateTime 2018-10-02 15:58:00.176000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-02 15:58:00.176000000 Z
+      content_type_id: section
+      revision: 1
+    title: Partners and Supporters
+    color:
+      sys:
+        id: 34g9GaUx6UwK20Ui4Y0oOu
+    modules:
+    - sys:
+        id: 70wbjXVNhmO0KeK4Ace4cO
+    - sys:
+        id: 28LcBQoBi8IMScw6880sIi

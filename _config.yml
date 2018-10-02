@@ -69,6 +69,20 @@ contentful:
           content_type: 'newsroom'
         all_entries: true
         destination: 'contentful/spaces/'
+    - landingPages: 
+        space: ENV_CONTENTFUL_PN_SPACE_ID
+        access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        cda_query:
+          content_type: 'landingPage'
+        all_entries: true
+        destination: 'contentful/spaces/'
+    - homepages: 
+        space: ENV_CONTENTFUL_PN_SPACE_ID
+        access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        cda_query:
+          content_type: 'homepage'
+        all_entries: true
+        destination: 'contentful/spaces/'
     - stats: 
         space: ENV_CONTENTFUL_PN_SPACE_ID
         access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
@@ -127,3 +141,7 @@ page_gen:
     template: 'newsroom'
     name: 'url'
     dir: 'newsrooms'
+  - data: 'contentful.spaces.landingPages.landingPage'
+    template: 'landing'
+    name: 'url'
+    dir: 'pages'

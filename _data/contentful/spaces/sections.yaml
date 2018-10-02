@@ -46,3 +46,49 @@ section:
         id: 1NZisAerOwK06WAYMKO8Ma
     - sys:
         id: 5o5KdToZ20SuAkwmkQ6KK
+- sys:
+    id: 7505Qq4SS4iuWOoMMeCO6u
+    created_at: !ruby/object:DateTime 2018-10-02 15:58:00.176000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-02 15:58:00.176000000 Z
+    content_type_id: section
+    revision: 1
+  title: Partners and Supporters
+  color:
+    sys:
+      id: 34g9GaUx6UwK20Ui4Y0oOu
+      created_at: !ruby/object:DateTime 2018-10-01 14:56:00.990000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-01 16:32:44.225000000 Z
+      content_type_id: color
+      revision: 2
+    name: Bittersweet Pink
+    value: "#FF6666"
+    text: "#FFFFFF"
+    thumbnail:
+      sys:
+        id: 2xOUc99HuUusY8u448wmyU
+        created_at: !ruby/object:DateTime 2018-10-01 14:55:56.036000000 Z
+        updated_at: !ruby/object:DateTime 2018-10-01 14:55:56.036000000 Z
+      title: Bittersweet Pink
+      description: 
+      url: "//images.ctfassets.net/a1gidpdiipum/2xOUc99HuUusY8u448wmyU/55cf2b70468a222e77ae6f65455b79f2/Pop-up_Newsroom.png"
+  modules:
+  - sys:
+      id: 70wbjXVNhmO0KeK4Ace4cO
+      created_at: !ruby/object:DateTime 2018-10-02 15:53:30.790000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-02 15:53:30.790000000 Z
+      content_type_id: moduleLeadText
+      revision: 1
+    content: Pop-Up Newsroom works with platforms, publishers, broadcasters, universities
+      and technology companies.
+  - sys:
+      id: 28LcBQoBi8IMScw6880sIi
+      created_at: !ruby/object:DateTime 2018-10-02 15:56:15.334000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-02 15:56:15.334000000 Z
+      content_type_id: moduleCards
+      revision: 1
+    title: Partners and Supporters
+    cards:
+    - sys:
+        id: 5Y2WPSk6XY4sMQ6oq44QcW
+    - sys:
+        id: 3LfDU4x6LSioA6OOmCG4K0

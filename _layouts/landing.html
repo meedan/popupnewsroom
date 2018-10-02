@@ -1,10 +1,21 @@
+<!-- Set landing page as homepage -->
+{% assign homepage = site.data.contentful.spaces.homepages.homepage %}
+{% assign lps = site.data.contentful.spaces.landingPages.landingPage %}
+{% for lp in lps %}
+  {% for hp in homepage %}
+    {% if lp.sys.id == hp.landing_page.sys.id  %}
+      {% assign page = lp %}
+      {% assign homepage = true %}
+    {% endif %}
+  {% endfor %}
+{% endfor %}
 <!DOCTYPE html>
 <html>
 	{% include head.html %}
 	<body class="page-section">
 		<div class="site-wrapper">
 			{% include header.html %}
-			<div class="p-header" style="background-image:url('/images/P3070182.jpg')">
+			<div class="p-header" style="background-image:url({{ page.cover_image.url | append: '?fl=progressive' }})">
         <div class="p-header-container">
       		 <h1 class="logo">
       			{% include logo.html %}
@@ -17,12 +28,20 @@
       		</h2>
       	</div>
       </div>
-      {% include section_updates.html %}
+      {% if homepage == true %}
+        {% include section_updates.html %}
+      {% endif %}
       {% include section_approach.html %}
       {% include section_process.html %}
       {% include section_experience.html %}
-      {% include section_contact.html %}
+      {% if page.sections %}
+        {% include render_sections.html %}
+      {% endif %}
+      {% if homepage == true %}
+        {% include section_contact.html %}
+      {% endif %}
       {% include footer.html %}
+
 		</div>
 		{% include js.html %}
 	</body>

@@ -44,3 +44,41 @@ moduleCard:
   filter_image: false
   logo: true
   link: https://www.animalpolitico.com/
+- sys:
+    id: 5Y2WPSk6XY4sMQ6oq44QcW
+    created_at: !ruby/object:DateTime 2018-10-02 15:55:17.871000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-02 15:55:17.871000000 Z
+    content_type_id: moduleCard
+    revision: 1
+  title: Facebook Journalism Project
+  path: facebook-journalism-project
+  image:
+    sys:
+      id: 1EmXCcI92IqIWkUcUAyGE0
+      created_at: !ruby/object:DateTime 2018-10-02 15:55:07.724000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-02 15:55:07.724000000 Z
+    title: fjp-logo
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/1EmXCcI92IqIWkUcUAyGE0/94ad63c4447216f14ce31382c018bbb4/fjp-logo.png"
+  filter_image: false
+  logo: true
+  link: https://www.facebook.com/facebookmedia/solutions/facebook-journalism-project
+- sys:
+    id: 3LfDU4x6LSioA6OOmCG4K0
+    created_at: !ruby/object:DateTime 2018-10-02 15:56:09.453000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-02 15:56:09.453000000 Z
+    content_type_id: moduleCard
+    revision: 1
+  title: Google News Initiative
+  path: google-news-initiative
+  image:
+    sys:
+      id: 1bpRuhhNvGKYuuWuMk4eSC
+      created_at: !ruby/object:DateTime 2018-10-02 15:55:53.893000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-02 15:55:53.893000000 Z
+    title: Google News Initiative
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/1bpRuhhNvGKYuuWuMk4eSC/9745fa3130a480ca0845b5147a734ce3/Screen_Shot_2018-06-19_at_11.44.07_AM.png"
+  filter_image: false
+  logo: true
+  link: https://newsinitiative.withgoogle.com/
