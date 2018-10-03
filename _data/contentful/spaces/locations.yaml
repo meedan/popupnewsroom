@@ -7,3 +7,10 @@ location:
     content_type_id: location
     revision: 1
   title: Mexico
+- sys:
+    id: iue4R8eUmWqacKIcS8gSc
+    created_at: !ruby/object:DateTime 2018-10-03 17:42:24.061000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 17:42:24.061000000 Z
+    content_type_id: location
+    revision: 1
+  title: Sweden

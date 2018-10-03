@@ -16,3 +16,11 @@ link:
     revision: 1
   label: Twitter
   url: https://twitter.com/carlosbravoreg/status/1012496238564917248
+- sys:
+    id: LXTcuYJWA6oieu0s88Yik
+    created_at: !ruby/object:DateTime 2018-10-03 17:47:24.130000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 17:47:24.130000000 Z
+    content_type_id: link
+    revision: 1
+  label: riksdagsvalet.popup.news
+  url: http://riksdagsvalet.popup.news

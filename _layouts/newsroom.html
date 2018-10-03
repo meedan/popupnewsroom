@@ -7,9 +7,9 @@ custom_js_lib: loadCSS
       {% include head.html %}
       <body class="page-section newsroom">
             <div class="site-wrapper">
-                  <div class="p-header" style="background-image:url('//images.ctfassets.net/a1gidpdiipum/K4Wtyp0GKAoia2cGq0AWo/271cecb5406972630e62e11d5b1c12ac/Stand-up-meeting-to-start-the-day-June-30_-2018.jpg')">
+                  <div class="p-header" style="background-image:url({{ page.hero_image.url }})">
                     <div class="p-header-image" style="visibility: hidden;">
-                      <img src="//images.ctfassets.net/a1gidpdiipum/K4Wtyp0GKAoia2cGq0AWo/271cecb5406972630e62e11d5b1c12ac/Stand-up-meeting-to-start-the-day-June-30_-2018.jpg" />
+                      <img src="{{ page.hero_image.url }}" />
                     </div>
                     <div class="p-header-container">
                                <a href="/"><h1 class="logo">

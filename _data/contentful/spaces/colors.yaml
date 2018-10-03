@@ -51,3 +51,20 @@ color:
     title: Gray (Porcelain)
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/5DV5rpAPnyA8WIewE44kKQ/ef08391e06536efa99a64bd4c888ade7/porcelain.png"
+- sys:
+    id: 1z7NvOuycoMOcCKYuQuq0U
+    created_at: !ruby/object:DateTime 2018-10-03 17:44:39.309000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 17:44:39.309000000 Z
+    content_type_id: color
+    revision: 1
+  name: Cornflower Blue
+  value: "#6771FA"
+  text: "#FFFFFF"
+  thumbnail:
+    sys:
+      id: 4LOKrjq5hSeAewIOe0gE46
+      created_at: !ruby/object:DateTime 2018-10-03 17:44:35.038000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 17:44:35.038000000 Z
+    title: purplish blue
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/4LOKrjq5hSeAewIOe0gE46/0928f762ebf84433c0785934f19bed31/Pop-up_Newsroom.png"

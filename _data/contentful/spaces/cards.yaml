@@ -147,3 +147,55 @@ moduleCard:
   tag: '3'
   filter_image: false
   logo: false
+- sys:
+    id: DcNSoocS1a4q44k0sUU8q
+    created_at: !ruby/object:DateTime 2018-10-03 18:02:37.551000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 18:02:37.551000000 Z
+    content_type_id: moduleCard
+    revision: 1
+  title: Sodertorn University
+  path: sodertorn-university
+  image:
+    sys:
+      id: 7rmDQQSwYE0Cc6UumoycGI
+      created_at: !ruby/object:DateTime 2018-10-03 18:02:32.343000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 18:02:32.343000000 Z
+    title: Södertörn University
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/7rmDQQSwYE0Cc6UumoycGI/3a115a0090ee69a467713cce53939898/Sh-logotype-eng.JPG"
+  filter_image: false
+  logo: true
+- sys:
+    id: e3Er2ug1JQcasWgCysGim
+    created_at: !ruby/object:DateTime 2018-10-03 18:03:50.998000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 18:03:50.998000000 Z
+    content_type_id: moduleCard
+    revision: 1
+  title: Stockholm University
+  path: stockholm-university
+  image:
+    sys:
+      id: 2eo6zm773Kk2M0Iu0qUU2
+      created_at: !ruby/object:DateTime 2018-10-03 18:03:42.133000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 18:03:42.133000000 Z
+    title: Stockholm University Logo
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/2eo6zm773Kk2M0Iu0qUU2/8f2abd3b8f175dd119b5c6018760a399/1200px-Formal_Seal_of_Stockholm_University_2C_Stockholm_2C_Sverige.svg.png"
+  filter_image: false
+  logo: true
+- sys:
+    id: 3N9czW5SWc84Iyo6EMMqy8
+    created_at: !ruby/object:DateTime 2018-10-03 18:04:46.259000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 18:04:46.259000000 Z
+    content_type_id: moduleCard
+    revision: 1
+  title: Lund University
+  path: lund-university
+  image:
+    sys:
+      id: 7iXYcaok5amkqqoCcYUsic
+      created_at: !ruby/object:DateTime 2018-10-03 18:04:40.369000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 18:04:40.369000000 Z
+    title: Lund University Logo
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/7iXYcaok5amkqqoCcYUsic/90230c90886c1d08e60d69a0eff2763d/8bcTcRrO_400x400.jpg"

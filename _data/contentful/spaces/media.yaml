@@ -74,3 +74,37 @@ media:
     title: Verificado-partners-working-together-to-design-a-process-for-debunking-misinformation-and-verifying-content-from-social-networks
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/4ZuilAbZUcQqAc0QW0UIiw/716ea9c2c8e0bf3eec31d71e219a34f9/Verificado-partners-working-together-to-design-a-process-for-debunking-misinformation-and-verifying-content-from-social-netw.jpg"
+- sys:
+    id: uf0nbBgereuWI8SIEGcqm
+    created_at: !ruby/object:DateTime 2018-10-03 18:18:02.713000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 18:18:02.713000000 Z
+    content_type_id: media
+    revision: 1
+  caption_title: Jobs
+  caption: Multi-platform editorial products designed and refined through cross-border,
+    digital first collaboration between publishers and broadcasters in Europe.
+  image:
+    sys:
+      id: 1QrFHVC7MEaYiA4sCI8s4M
+      created_at: !ruby/object:DateTime 2018-10-03 18:17:56.585000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 18:23:54.765000000 Z
+    title: Jobs
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/1QrFHVC7MEaYiA4sCI8s4M/f4903e8c25935355c208f7aa3728cbdd/20180906_110403.jpg"
+- sys:
+    id: 5V29ekPmr6ww0eAeYQkIkM
+    created_at: !ruby/object:DateTime 2018-10-03 18:22:28.261000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 18:22:28.261000000 Z
+    content_type_id: media
+    revision: 1
+  caption_title: Students Brainstorming
+  caption: Multi-platform editorial products designed and refined through cross-border,
+    digital first collaboration between publishers and broadcasters in Europe.
+  image:
+    sys:
+      id: 3wOXMIF2Agg4i4A4S8esOM
+      created_at: !ruby/object:DateTime 2018-10-03 18:22:22.678000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 18:22:22.678000000 Z
+    title: Students Brainstorming in Riksdagsvalet
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/3wOXMIF2Agg4i4A4S8esOM/2e9faff502df639c6a4996d1b61250a7/20180905_103947.jpg"

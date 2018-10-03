@@ -27,3 +27,29 @@ moduleImage:
       description: 
       url: "//images.ctfassets.net/a1gidpdiipum/4ZuilAbZUcQqAc0QW0UIiw/716ea9c2c8e0bf3eec31d71e219a34f9/Verificado-partners-working-together-to-design-a-process-for-debunking-misinformation-and-verifying-content-from-social-netw.jpg"
   filter_image: true
+- sys:
+    id: 5Q8rqQqlkA4QU6Q4yc4s8u
+    created_at: !ruby/object:DateTime 2018-10-03 18:18:07.751000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 18:18:07.751000000 Z
+    content_type_id: moduleImage
+    revision: 1
+  title: Jobs
+  media:
+    sys:
+      id: uf0nbBgereuWI8SIEGcqm
+      created_at: !ruby/object:DateTime 2018-10-03 18:18:02.713000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 18:18:02.713000000 Z
+      content_type_id: media
+      revision: 1
+    caption_title: Jobs
+    caption: Multi-platform editorial products designed and refined through cross-border,
+      digital first collaboration between publishers and broadcasters in Europe.
+    image:
+      sys:
+        id: 1QrFHVC7MEaYiA4sCI8s4M
+        created_at: !ruby/object:DateTime 2018-10-03 18:17:56.585000000 Z
+        updated_at: !ruby/object:DateTime 2018-10-03 18:23:54.765000000 Z
+      title: Jobs
+      description: 
+      url: "//images.ctfassets.net/a1gidpdiipum/1QrFHVC7MEaYiA4sCI8s4M/f4903e8c25935355c208f7aa3728cbdd/20180906_110403.jpg"
+  filter_image: true

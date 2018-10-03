@@ -1,6 +1,7 @@
 // ======================================================================
 // Table styles
 .table {
+	position: relative;
   z-index: 1;
   display: flex;
   flex-wrap: wrap;
@@ -8,6 +9,7 @@
   border: 1px solid;
   margin: 0 auto;
   max-width: $page-width;
+  border-color: $black;
   h1, p {
   	margin: 0;
   	padding: 0;
@@ -34,7 +36,72 @@
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
 	.table .table-item {
 		font-size: 1em;
+		border-right: 0;
+		border-top: 0;
 	}
+
+	.table .table-item:last-child {
+		border-right: 1px solid;
+	}
+}
+
+// tables
+.table-header {
+	background-color: $black;
+	color: $porcelain;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding: $space-small/3;
+	font-size: 1.222em;
+	line-height: 1;
+}
+
+.row {
+	display: flex;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.row:hover .table-item {
+	background-color: $cornflower-blue;
+	color: #fff;
+	border-color: $black;
+}
+
+@include responsive('min-width: #{$width-tablet}') {
+	.table .media-image {
+		position: absolute;
+		top: -120%;
+		left: -180px;
+		display: none;
+		z-index: -5;
+	}
+
+	.row:hover .media-image {
+			display: block;
+	}
+}
+
+.table .image img {
+	display: block;
+}
+
+.table-item {
+	width: 100%;
+	background-color: $porcelain;
+	color: $black;
+}
+
+.table-item.expand {
+	width: 40%;
+	flex: 1 0 40%;
+}
+
+.table-item.shrink {
+	width: 30%;
+	flex: 1 0 30%;
+	line-height: 1.4;
 }
 
 .table-item.title,

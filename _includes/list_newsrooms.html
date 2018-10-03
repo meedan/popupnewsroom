@@ -1,0 +1,16 @@
+{% assign newsrooms = site.data.contentful.spaces.newsrooms.newsroom %}
+<div class="newsrooms table">
+	<div class="table-header">
+		<div>Newsrooms</div>
+	</div>
+	{% for newsroom in newsrooms %}
+		<a class="row" href="/newsrooms/{{ newsroom.url }}">
+			<div class="media-image">
+				<img class="tinted" src="{{ newsroom.hero_image.url }}" />
+			</div>
+			<div class="table-item expand">{{ newsroom.title }}</div>
+			<div class="table-item shrink">{{ newsroom.date }}</div>
+			<div class="table-item shrink">{{ newsroom.location.title }}</div>
+		</a>
+	{% endfor %}
+</div>

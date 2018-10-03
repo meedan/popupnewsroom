@@ -21,7 +21,15 @@
         			{% endif %}
         		{% endfor %}		
         	{% endfor %}
-        {% endfor %}    
+        {% endfor %}
+        <!-- Hardcoding newsrooms table for newsrooms section -->
+        {% if section.sys.id == "3xIS74Sko8QqOEwuW8g28i" %}
+        <div class="grouped-column">
+            <div class="grouped-column-content">
+                {% include list_newsrooms.html %}
+            </div>
+        </div>
+        {% endif %}    
         <!-- Hardcoding partner logos for experience section -->
         {% if section.sys.id == "6S8ZNK4dK848moCW2aAEOe" %}
         <div class="grouped-column">

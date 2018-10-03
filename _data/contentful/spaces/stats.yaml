@@ -64,3 +64,27 @@ stat:
     revision: 1
   label: Organizations engaged
   number: 100+
+- sys:
+    id: 4Fje9j2LIA8mMmiIYyowWw
+    created_at: !ruby/object:DateTime 2018-10-03 18:06:19.679000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 18:06:19.679000000 Z
+    content_type_id: stat
+    revision: 1
+  label: " Journalists trained"
+  number: '150'
+- sys:
+    id: 5XwDzK0KmAmg8qqIMUEkSU
+    created_at: !ruby/object:DateTime 2018-10-03 18:06:30.218000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 18:06:30.218000000 Z
+    content_type_id: stat
+    revision: 1
+  label: " Organizations involved"
+  number: " 8"
+- sys:
+    id: DOs9nEkEi42Q8YcKmcO0M
+    created_at: !ruby/object:DateTime 2018-10-03 18:06:44.857000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 18:06:44.857000000 Z
+    content_type_id: stat
+    revision: 1
+  label: " Stories researched"
+  number: " 20+"

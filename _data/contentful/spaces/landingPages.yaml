@@ -3,9 +3,9 @@ landingPage:
 - sys:
     id: 56dG8WJyH6ykKkUmACQYII
     created_at: !ruby/object:DateTime 2018-10-02 15:20:51.202000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-03 16:09:36.171000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 18:47:39.420000000 Z
     content_type_id: landingPage
-    revision: 6
+    revision: 8
   title: Pop-Up Newsroom
   url: "/"
   description: Pop-Up Newsroom innovates collaborative reporting initiatives in different
@@ -54,6 +54,19 @@ landingPage:
     - sys:
         id: 3CTHltB9QQOq0wUqCQ22Su
   - sys:
+      id: 3xIS74Sko8QqOEwuW8g28i
+      created_at: !ruby/object:DateTime 2018-10-03 16:33:53.561000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 16:37:48.068000000 Z
+      content_type_id: section
+      revision: 2
+    title: Newsrooms
+    color:
+      sys:
+        id: 7GOkr6iXkIQEq8IqmMm2Wo
+    modules:
+    - sys:
+        id: 49m7kHg2PCKAsGU2aUU6Iy
+  - sys:
       id: 6S8ZNK4dK848moCW2aAEOe
       created_at: !ruby/object:DateTime 2018-10-03 15:40:33.490000000 Z
       updated_at: !ruby/object:DateTime 2018-10-03 15:46:45.725000000 Z
@@ -77,10 +90,10 @@ landingPage:
   - sys:
       id: 7505Qq4SS4iuWOoMMeCO6u
       created_at: !ruby/object:DateTime 2018-10-02 15:58:00.176000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-02 15:58:00.176000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 18:45:59.649000000 Z
       content_type_id: section
-      revision: 1
-    title: Partners and Supporters
+      revision: 2
+    title: Partners
     color:
       sys:
         id: 34g9GaUx6UwK20Ui4Y0oOu
