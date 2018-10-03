@@ -92,3 +92,286 @@ section:
         id: 5Y2WPSk6XY4sMQ6oq44QcW
     - sys:
         id: 3LfDU4x6LSioA6OOmCG4K0
+- sys:
+    id: LaOyb6xVuuWg6Si08omQE
+    created_at: !ruby/object:DateTime 2018-10-03 14:50:12.148000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 14:50:12.148000000 Z
+    content_type_id: section
+    revision: 1
+  title: Process
+  color:
+    sys:
+      id: 67645n7FzUGGmu4MkU6os4
+      created_at: !ruby/object:DateTime 2018-10-03 14:46:18.144000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 15:29:28.095000000 Z
+      content_type_id: color
+      revision: 2
+    name: Gray
+    value: "#E7E8EA"
+    text: "#FF6666"
+    thumbnail:
+      sys:
+        id: 5DV5rpAPnyA8WIewE44kKQ
+        created_at: !ruby/object:DateTime 2018-10-03 14:46:12.345000000 Z
+        updated_at: !ruby/object:DateTime 2018-10-03 14:46:12.346000000 Z
+      title: Gray (Porcelain)
+      description: 
+      url: "//images.ctfassets.net/a1gidpdiipum/5DV5rpAPnyA8WIewE44kKQ/ef08391e06536efa99a64bd4c888ade7/porcelain.png"
+  modules:
+  - sys:
+      id: 2GPUvhIYEog4OQC8QEk0m2
+      created_at: !ruby/object:DateTime 2018-10-03 14:49:49.998000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 14:49:49.998000000 Z
+      content_type_id: moduleCard
+      revision: 1
+    title: Innovation
+    path: innovation
+    image:
+      sys:
+        id: 1nvrI0AmQ0wME04GOsy0Eq
+        created_at: !ruby/object:DateTime 2018-10-03 14:47:27.511000000 Z
+        updated_at: !ruby/object:DateTime 2018-10-03 14:47:27.511000000 Z
+      title: process innovation
+      description: 
+      url: "//images.ctfassets.net/a1gidpdiipum/1nvrI0AmQ0wME04GOsy0Eq/f519405cf912f82c3306911519ac82f9/process_innovation.png"
+    description: With our tools and training we forward new workflows, new techniques,
+      and new possibilities for newsrooms and educators, helping drive innovation
+      across the sector.
+    tag: '1'
+    filter_image: false
+    logo: false
+  - sys:
+      id: q44zAQ2jXUKQ6MS2wwimq
+      created_at: !ruby/object:DateTime 2018-10-03 14:49:50.023000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 14:49:50.023000000 Z
+      content_type_id: moduleCard
+      revision: 1
+    title: Technology
+    path: technology
+    image:
+      sys:
+        id: 64nvqFtQ7S6keSgMgkwqoE
+        created_at: !ruby/object:DateTime 2018-10-03 14:48:11.271000000 Z
+        updated_at: !ruby/object:DateTime 2018-10-03 14:48:11.271000000 Z
+      title: process technology
+      description: 
+      url: "//images.ctfassets.net/a1gidpdiipum/64nvqFtQ7S6keSgMgkwqoE/8b983b0bb49b0a10e4a9fcfc85832a9d/process_technology.png"
+    description: We build bespoke software for collaborative discovery, verification,
+      and archiving of digital media and work with other technology developers to
+      provide access to leading collaborative tools.
+    tag: '2'
+    filter_image: false
+    logo: false
+  - sys:
+      id: 3CTHltB9QQOq0wUqCQ22Su
+      created_at: !ruby/object:DateTime 2018-10-03 14:49:50.043000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 14:49:50.043000000 Z
+      content_type_id: moduleCard
+      revision: 1
+    title: Training
+    path: training
+    image:
+      sys:
+        id: 2OpnfS4FTWsO8WeMYYomuK
+        created_at: !ruby/object:DateTime 2018-10-03 14:49:20.316000000 Z
+        updated_at: !ruby/object:DateTime 2018-10-03 14:49:20.316000000 Z
+      title: process training
+      description: 
+      url: "//images.ctfassets.net/a1gidpdiipum/2OpnfS4FTWsO8WeMYYomuK/80646998dc691a7688afb81436c9d3ab/process_training.png"
+    description: We embrace a collaborative and creative model for developing and
+      delivering trainings designed to solve existing business and workflow needs
+      inside newsrooms.
+    tag: '3'
+    filter_image: false
+    logo: false
+- sys:
+    id: PjvArwoskmoSq8qmmsecC
+    created_at: !ruby/object:DateTime 2018-10-03 15:23:01.989000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 15:23:01.989000000 Z
+    content_type_id: section
+    revision: 1
+  title: Approach
+  color:
+    sys:
+      id: 67645n7FzUGGmu4MkU6os4
+      created_at: !ruby/object:DateTime 2018-10-03 14:46:18.144000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 15:29:28.095000000 Z
+      content_type_id: color
+      revision: 2
+    name: Gray
+    value: "#E7E8EA"
+    text: "#FF6666"
+    thumbnail:
+      sys:
+        id: 5DV5rpAPnyA8WIewE44kKQ
+        created_at: !ruby/object:DateTime 2018-10-03 14:46:12.345000000 Z
+        updated_at: !ruby/object:DateTime 2018-10-03 14:46:12.346000000 Z
+      title: Gray (Porcelain)
+      description: 
+      url: "//images.ctfassets.net/a1gidpdiipum/5DV5rpAPnyA8WIewE44kKQ/ef08391e06536efa99a64bd4c888ade7/porcelain.png"
+  modules:
+  - sys:
+      id: 1pWvRA7cwAWQmwUaimMo60
+      created_at: !ruby/object:DateTime 2018-10-03 15:05:12.644000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 15:05:12.644000000 Z
+      content_type_id: moduleLeadText
+      revision: 1
+    content: We use human-centered design methods to engage local stakeholders, encourage
+      coalition building, and generate creative and impactful projects.
+  - sys:
+      id: 3xn5tRGPD26W4q8Is4YAUs
+      created_at: !ruby/object:DateTime 2018-10-03 15:22:53.559000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 15:22:53.559000000 Z
+      content_type_id: moduleGraphic
+      revision: 1
+    title: Approach
+    graphic:
+      sys:
+        id: 5rsToO8Lw42MAEYk4Kqq82
+        created_at: !ruby/object:DateTime 2018-10-03 15:17:15.605000000 Z
+        updated_at: !ruby/object:DateTime 2018-10-03 15:17:15.605000000 Z
+      title: illustration approach
+      description: 
+      url: "//images.ctfassets.net/a1gidpdiipum/5rsToO8Lw42MAEYk4Kqq82/1b39c4ba20cf4ad6a394de21e7264380/illustration_approach.svg"
+  - sys:
+      id: 4OQGvoND3WiAWGSsEWWyY6
+      created_at: !ruby/object:DateTime 2018-10-03 15:05:35.779000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 15:05:35.779000000 Z
+      content_type_id: moduleText
+      revision: 1
+    title: Approach
+    content: |-
+      We work with newsrooms, independent journalists, civil society organizations, universities and technologists to design, refine and test collaborative approaches to some of journalism's most pressing challenges.
+
+      We work with newsrooms, independent journalists, civil society organizations, universities and technologists to design, refine and test collaborative approaches to some of journalism's most pressing challenges.
+- sys:
+    id: 6S8ZNK4dK848moCW2aAEOe
+    created_at: !ruby/object:DateTime 2018-10-03 15:40:33.490000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 15:46:45.725000000 Z
+    content_type_id: section
+    revision: 2
+  title: Experience
+  color:
+    sys:
+      id: 34g9GaUx6UwK20Ui4Y0oOu
+      created_at: !ruby/object:DateTime 2018-10-01 14:56:00.990000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-01 16:32:44.225000000 Z
+      content_type_id: color
+      revision: 2
+    name: Bittersweet Pink
+    value: "#FF6666"
+    text: "#FFFFFF"
+    thumbnail:
+      sys:
+        id: 2xOUc99HuUusY8u448wmyU
+        created_at: !ruby/object:DateTime 2018-10-01 14:55:56.036000000 Z
+        updated_at: !ruby/object:DateTime 2018-10-01 14:55:56.036000000 Z
+      title: Bittersweet Pink
+      description: 
+      url: "//images.ctfassets.net/a1gidpdiipum/2xOUc99HuUusY8u448wmyU/55cf2b70468a222e77ae6f65455b79f2/Pop-up_Newsroom.png"
+  modules:
+  - sys:
+      id: 1nyjC3Gnk8UcGG2MMOiKAK
+      created_at: !ruby/object:DateTime 2018-10-03 15:40:17.437000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 15:40:17.437000000 Z
+      content_type_id: moduleLeadImage
+      revision: 1
+    title: Collaboration Against Misinformation
+    media:
+      sys:
+        id: 1CcAn8KLgAuuSKiG00qgqg
+    filter_image: true
+  - sys:
+      id: 7u9JNEPNnOwYUUqMuasgSW
+      created_at: !ruby/object:DateTime 2018-10-03 15:34:37.878000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 15:34:37.878000000 Z
+      content_type_id: moduleInNumbers
+      revision: 1
+    title: In numbers
+    stats:
+    - sys:
+        id: GKVpqA4AykUqSMQA0IoM
+    - sys:
+        id: 3mnV8dZFheS44S0OmUOIAU
+    - sys:
+        id: ZYezaOtlyUWOm4u0y8Ike
+    - sys:
+        id: 7Eb6tilc1q62OYauygGwYq
+  - sys:
+      id: 5xPPE2dKgwG44Ge8OwOow0
+      created_at: !ruby/object:DateTime 2018-10-03 15:35:20.946000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 15:35:20.946000000 Z
+      content_type_id: moduleText
+      revision: 1
+    title: Experience
+    content: |-
+      Founded in 2017 by Meedan and Dig Deeper Media, Pop-Up Newsroom brings together Meedan’s open source technologies for social media verification with ten years of election and event monitoring workflow expertise from Dig Deeper Media.
+
+      Fergus Bell has innovated collaborative approaches to social media verification during elections since 2008 and Meedan’s Check was first deployed for the 2012 Egyptian election.
+  - sys:
+      id: 1nl2tyBwcA6IoaG2yCkUy0
+      created_at: !ruby/object:DateTime 2018-10-03 15:33:20.946000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 15:36:50.960000000 Z
+      content_type_id: moduleImage
+      revision: 2
+    title: Journalist Centered Design
+    media:
+      sys:
+        id: 3601iQNVFua86qiCE8UwE2
+    filter_image: true
+  - sys:
+      id: 5I9llJRNFSy0wYe6iUwgKi
+      created_at: !ruby/object:DateTime 2018-10-03 15:46:42.162000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 15:46:42.162000000 Z
+      content_type_id: moduleText
+      revision: 1
+    title: 'More Experience '
+    content: Since then we have helped define the fields of social newsgathering and
+      verification, developing workflows and technologies that have been deployed
+      to cover events and elections around the world, from the award winning Electionland
+      (US) to Verificado (Mexico).
+- sys:
+    id: 1VZNeTT3lqCiIICeoMoysm
+    created_at: !ruby/object:DateTime 2018-10-03 16:09:30.454000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 16:09:30.454000000 Z
+    content_type_id: section
+    revision: 1
+  title: Say hi
+  color:
+    sys:
+      id: 34g9GaUx6UwK20Ui4Y0oOu
+      created_at: !ruby/object:DateTime 2018-10-01 14:56:00.990000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-01 16:32:44.225000000 Z
+      content_type_id: color
+      revision: 2
+    name: Bittersweet Pink
+    value: "#FF6666"
+    text: "#FFFFFF"
+    thumbnail:
+      sys:
+        id: 2xOUc99HuUusY8u448wmyU
+        created_at: !ruby/object:DateTime 2018-10-01 14:55:56.036000000 Z
+        updated_at: !ruby/object:DateTime 2018-10-01 14:55:56.036000000 Z
+      title: Bittersweet Pink
+      description: 
+      url: "//images.ctfassets.net/a1gidpdiipum/2xOUc99HuUusY8u448wmyU/55cf2b70468a222e77ae6f65455b79f2/Pop-up_Newsroom.png"
+  modules:
+  - sys:
+      id: 3zRNpMQ7agEa0mCKeA2QyQ
+      created_at: !ruby/object:DateTime 2018-10-03 16:08:59.862000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 16:08:59.862000000 Z
+      content_type_id: moduleLeadText
+      revision: 1
+    content: Our role is to connect news organisations through our extensive network,
+      secure funding opportunities, manage the projects and partners and create shareable
+      resources at all stages.
+  - sys:
+      id: p46I1yx3564qgG8QCw0Im
+      created_at: !ruby/object:DateTime 2018-10-03 16:09:22.672000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 16:09:22.672000000 Z
+      content_type_id: moduleText
+      revision: 1
+    title: Say hi
+    content: To get involved in Pop-Up Newsroom or to get more details please fill
+      the following form and one of our representatives will contact you once we receive
+      your request.

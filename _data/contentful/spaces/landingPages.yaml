@@ -3,9 +3,9 @@ landingPage:
 - sys:
     id: 56dG8WJyH6ykKkUmACQYII
     created_at: !ruby/object:DateTime 2018-10-02 15:20:51.202000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-02 15:58:13.772000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 16:09:36.171000000 Z
     content_type_id: landingPage
-    revision: 2
+    revision: 6
   title: Pop-Up Newsroom
   url: "/"
   description: Pop-Up Newsroom innovates collaborative reporting initiatives in different
@@ -19,6 +19,61 @@ landingPage:
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/6cC45wiX6wAEqemcyCwQSK/0bc36f5e09fce2d7f3f76968b27e741d/P3070182.jpg"
   sections:
+  - sys:
+      id: PjvArwoskmoSq8qmmsecC
+      created_at: !ruby/object:DateTime 2018-10-03 15:23:01.989000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 15:23:01.989000000 Z
+      content_type_id: section
+      revision: 1
+    title: Approach
+    color:
+      sys:
+        id: 67645n7FzUGGmu4MkU6os4
+    modules:
+    - sys:
+        id: 1pWvRA7cwAWQmwUaimMo60
+    - sys:
+        id: 3xn5tRGPD26W4q8Is4YAUs
+    - sys:
+        id: 4OQGvoND3WiAWGSsEWWyY6
+  - sys:
+      id: LaOyb6xVuuWg6Si08omQE
+      created_at: !ruby/object:DateTime 2018-10-03 14:50:12.148000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 14:50:12.148000000 Z
+      content_type_id: section
+      revision: 1
+    title: Process
+    color:
+      sys:
+        id: 67645n7FzUGGmu4MkU6os4
+    modules:
+    - sys:
+        id: 2GPUvhIYEog4OQC8QEk0m2
+    - sys:
+        id: q44zAQ2jXUKQ6MS2wwimq
+    - sys:
+        id: 3CTHltB9QQOq0wUqCQ22Su
+  - sys:
+      id: 6S8ZNK4dK848moCW2aAEOe
+      created_at: !ruby/object:DateTime 2018-10-03 15:40:33.490000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 15:46:45.725000000 Z
+      content_type_id: section
+      revision: 2
+    title: Experience
+    color:
+      sys:
+        id: 34g9GaUx6UwK20Ui4Y0oOu
+    modules:
+    - sys:
+        id: 1nyjC3Gnk8UcGG2MMOiKAK
+    - sys:
+        id: 7u9JNEPNnOwYUUqMuasgSW
+    - sys:
+        id: 5xPPE2dKgwG44Ge8OwOow0
+    - sys:
+        id: 1nl2tyBwcA6IoaG2yCkUy0
+    - sys:
+        id: 5I9llJRNFSy0wYe6iUwgKi
   - sys:
       id: 7505Qq4SS4iuWOoMMeCO6u
       created_at: !ruby/object:DateTime 2018-10-02 15:58:00.176000000 Z
@@ -34,3 +89,18 @@ landingPage:
         id: 70wbjXVNhmO0KeK4Ace4cO
     - sys:
         id: 28LcBQoBi8IMScw6880sIi
+  - sys:
+      id: 1VZNeTT3lqCiIICeoMoysm
+      created_at: !ruby/object:DateTime 2018-10-03 16:09:30.454000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 16:09:30.454000000 Z
+      content_type_id: section
+      revision: 1
+    title: Say hi
+    color:
+      sys:
+        id: 34g9GaUx6UwK20Ui4Y0oOu
+    modules:
+    - sys:
+        id: 3zRNpMQ7agEa0mCKeA2QyQ
+    - sys:
+        id: p46I1yx3564qgG8QCw0Im

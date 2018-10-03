@@ -82,3 +82,68 @@ moduleCard:
   filter_image: false
   logo: true
   link: https://newsinitiative.withgoogle.com/
+- sys:
+    id: 2GPUvhIYEog4OQC8QEk0m2
+    created_at: !ruby/object:DateTime 2018-10-03 14:49:49.998000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 14:49:49.998000000 Z
+    content_type_id: moduleCard
+    revision: 1
+  title: Innovation
+  path: innovation
+  image:
+    sys:
+      id: 1nvrI0AmQ0wME04GOsy0Eq
+      created_at: !ruby/object:DateTime 2018-10-03 14:47:27.511000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 14:47:27.511000000 Z
+    title: process innovation
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/1nvrI0AmQ0wME04GOsy0Eq/f519405cf912f82c3306911519ac82f9/process_innovation.png"
+  description: With our tools and training we forward new workflows, new techniques,
+    and new possibilities for newsrooms and educators, helping drive innovation across
+    the sector.
+  tag: '1'
+  filter_image: false
+  logo: false
+- sys:
+    id: q44zAQ2jXUKQ6MS2wwimq
+    created_at: !ruby/object:DateTime 2018-10-03 14:49:50.023000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 14:49:50.023000000 Z
+    content_type_id: moduleCard
+    revision: 1
+  title: Technology
+  path: technology
+  image:
+    sys:
+      id: 64nvqFtQ7S6keSgMgkwqoE
+      created_at: !ruby/object:DateTime 2018-10-03 14:48:11.271000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 14:48:11.271000000 Z
+    title: process technology
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/64nvqFtQ7S6keSgMgkwqoE/8b983b0bb49b0a10e4a9fcfc85832a9d/process_technology.png"
+  description: We build bespoke software for collaborative discovery, verification,
+    and archiving of digital media and work with other technology developers to provide
+    access to leading collaborative tools.
+  tag: '2'
+  filter_image: false
+  logo: false
+- sys:
+    id: 3CTHltB9QQOq0wUqCQ22Su
+    created_at: !ruby/object:DateTime 2018-10-03 14:49:50.043000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 14:49:50.043000000 Z
+    content_type_id: moduleCard
+    revision: 1
+  title: Training
+  path: training
+  image:
+    sys:
+      id: 2OpnfS4FTWsO8WeMYYomuK
+      created_at: !ruby/object:DateTime 2018-10-03 14:49:20.316000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 14:49:20.316000000 Z
+    title: process training
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/2OpnfS4FTWsO8WeMYYomuK/80646998dc691a7688afb81436c9d3ab/process_training.png"
+  description: We embrace a collaborative and creative model for developing and delivering
+    trainings designed to solve existing business and workflow needs inside newsrooms.
+  tag: '3'
+  filter_image: false
+  logo: false

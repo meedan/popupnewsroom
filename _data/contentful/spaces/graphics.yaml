@@ -1,0 +1,17 @@
+---
+moduleGraphic:
+- sys:
+    id: 3xn5tRGPD26W4q8Is4YAUs
+    created_at: !ruby/object:DateTime 2018-10-03 15:22:53.559000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 15:22:53.559000000 Z
+    content_type_id: moduleGraphic
+    revision: 1
+  title: Approach
+  graphic:
+    sys:
+      id: 5rsToO8Lw42MAEYk4Kqq82
+      created_at: !ruby/object:DateTime 2018-10-03 15:17:15.605000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 15:17:15.605000000 Z
+    title: illustration approach
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/5rsToO8Lw42MAEYk4Kqq82/1b39c4ba20cf4ad6a394de21e7264380/illustration_approach.svg"

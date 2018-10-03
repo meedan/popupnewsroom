@@ -6,7 +6,7 @@
             {% assign section_text_color = color.text %}
         {% endif %}
     {% endfor %}
-	<section class="content {{ section.title | downcase }}" id="{{ section.title | downcase }}" style="background-color: {{ section_color }}; color: {{ section_text_color }};">
+	<section class="content {{ section.title | slugify | downcase }}" id="{{ section.title | slugify | downcase }}" style="background-color: {{ section_color }}; color: {{ section_text_color }};">
     <div class="content-wrapper">
         <h2>{{ section.title }}</h2>
         {% assign sections = site.data.contentful.spaces.sections.section %}
@@ -22,6 +22,24 @@
         		{% endfor %}		
         	{% endfor %}
         {% endfor %}    
+        <!-- Hardcoding partner logos for experience section -->
+        {% if section.sys.id == "6S8ZNK4dK848moCW2aAEOe" %}
+        <div class="grouped-column">
+            <div class="grouped-column-content">
+                <div class="partnership">
+                    {% include meedan_dig-deeper_logos.html %}
+                </div>
+            </div>
+        </div>
+        {% endif %}
+        <!-- Hardcoding contact form for contact section -->
+        {% if section.sys.id == "1VZNeTT3lqCiIICeoMoysm" %}
+        <div class="grouped-column">
+            <div class="grouped-column-content">
+                {% include contact_form.html %}
+            </div>
+        </div>
+        {% endif %}
     </div>
 	</section>
 {% endfor %}

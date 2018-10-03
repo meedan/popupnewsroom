@@ -132,6 +132,27 @@ contentful:
           content_type: 'moduleCard'
         all_entries: true
         destination: 'contentful/spaces/'
+    - graphics: 
+        space: ENV_CONTENTFUL_PN_SPACE_ID
+        access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        cda_query:
+          content_type: 'moduleGraphic'
+        all_entries: true
+        destination: 'contentful/spaces/'
+    - images: 
+        space: ENV_CONTENTFUL_PN_SPACE_ID
+        access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        cda_query:
+          content_type: 'moduleImage'
+        all_entries: true
+        destination: 'contentful/spaces/'
+    - leadImages: 
+        space: ENV_CONTENTFUL_PN_SPACE_ID
+        access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        cda_query:
+          content_type: 'moduleLeadImage'
+        all_entries: true
+        destination: 'contentful/spaces/'
 
 
 # Generate pages from Contentful data files

@@ -1,0 +1,16 @@
+<div class="grouped-column">
+  <div class="grouped-column-content">
+  	{% assign images = site.data.contentful.spaces.images.moduleImage %}
+  	{% for image in images %}
+  		{% if image.media.sys.id == module.media.sys.id %}
+
+  			{% 
+          include media_image.html 
+          image=image.media.image.url
+          caption_title=image.media.caption_title
+          caption=image.media.caption
+    		%}
+  		{% endif %}
+  	{% endfor %}
+  </div>
+</div>

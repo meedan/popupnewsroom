@@ -32,3 +32,35 @@ stat:
     revision: 1
   label: Videos published
   number: '100'
+- sys:
+    id: GKVpqA4AykUqSMQA0IoM
+    created_at: !ruby/object:DateTime 2018-10-03 15:33:59.051000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 15:33:59.051000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Initiatives so far
+  number: '4'
+- sys:
+    id: 3mnV8dZFheS44S0OmUOIAU
+    created_at: !ruby/object:DateTime 2018-10-03 15:34:08.274000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 15:34:08.274000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Award nominations
+  number: '3'
+- sys:
+    id: ZYezaOtlyUWOm4u0y8Ike
+    created_at: !ruby/object:DateTime 2018-10-03 15:34:20.249000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 15:34:20.249000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Journalists trained
+  number: 300+
+- sys:
+    id: 7Eb6tilc1q62OYauygGwYq
+    created_at: !ruby/object:DateTime 2018-10-03 15:34:33.682000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 15:34:33.682000000 Z
+    content_type_id: stat
+    revision: 1
+  label: Organizations engaged
+  number: 100+

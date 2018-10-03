@@ -34,3 +34,20 @@ color:
     title: Bittersweet Pink
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/2xOUc99HuUusY8u448wmyU/55cf2b70468a222e77ae6f65455b79f2/Pop-up_Newsroom.png"
+- sys:
+    id: 67645n7FzUGGmu4MkU6os4
+    created_at: !ruby/object:DateTime 2018-10-03 14:46:18.144000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 15:29:28.095000000 Z
+    content_type_id: color
+    revision: 2
+  name: Gray
+  value: "#E7E8EA"
+  text: "#FF6666"
+  thumbnail:
+    sys:
+      id: 5DV5rpAPnyA8WIewE44kKQ
+      created_at: !ruby/object:DateTime 2018-10-03 14:46:12.345000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 14:46:12.346000000 Z
+    title: Gray (Porcelain)
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/5DV5rpAPnyA8WIewE44kKQ/ef08391e06536efa99a64bd4c888ade7/porcelain.png"
