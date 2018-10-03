@@ -104,6 +104,21 @@
 	line-height: 1.4;
 }
 
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+	.table-item.expand {
+		width: 60%;
+		flex: 1 0 60%;
+	}
+	.table-item.shrink {
+		width: 40%;
+		flex: 1 0 40%;
+		border-right: 1px solid;
+	}
+	.table-item.shrink:last-child {
+		display: none;
+	}
+}	
+
 .table-item.title,
 .table-item.description,
 .table-item.link {
