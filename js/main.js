@@ -16,4 +16,11 @@ $(document).ready(function() {
 		dots: true,
 	});
 
+	$('.newsroom .logo').hover(function(){
+      $('.newsroom .p-header').addClass("active");
+  }, function () {
+      $('.newsroom .p-header').removeClass("active");
+  });
+
+
 });

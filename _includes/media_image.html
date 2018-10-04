@@ -3,7 +3,7 @@
 {% assign caption_title = include.caption_title %}
 <div class="media">
 			<div class="media-image">
-      	<img src="{{ i }}" alt="{{ caption }}" />
+      	<img src="{{ i | append: '?fm=webp' }}" alt="{{ caption }}" />
       </div>
       <div class="media-caption">
             <div class="media-caption-title">{{ caption_title }}</div>

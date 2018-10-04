@@ -105,9 +105,9 @@ landingPage:
   - sys:
       id: 1VZNeTT3lqCiIICeoMoysm
       created_at: !ruby/object:DateTime 2018-10-03 16:09:30.454000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-03 16:09:30.454000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-04 13:55:13.466000000 Z
       content_type_id: section
-      revision: 1
+      revision: 2
     title: Say hi
     color:
       sys:
@@ -115,5 +115,7 @@ landingPage:
     modules:
     - sys:
         id: 3zRNpMQ7agEa0mCKeA2QyQ
+    - sys:
+        id: 36snCl9odOWsY6wKyk088I
     - sys:
         id: p46I1yx3564qgG8QCw0Im

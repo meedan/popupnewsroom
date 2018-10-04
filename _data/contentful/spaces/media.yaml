@@ -94,17 +94,18 @@ media:
 - sys:
     id: 5V29ekPmr6ww0eAeYQkIkM
     created_at: !ruby/object:DateTime 2018-10-03 18:22:28.261000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-03 18:22:28.261000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-03 21:35:17.953000000 Z
     content_type_id: media
-    revision: 1
-  caption_title: Students Brainstorming
+    revision: 3
+  caption_title: Monitoring Disinformation
   caption: Multi-platform editorial products designed and refined through cross-border,
     digital first collaboration between publishers and broadcasters in Europe.
   image:
     sys:
-      id: 3wOXMIF2Agg4i4A4S8esOM
-      created_at: !ruby/object:DateTime 2018-10-03 18:22:22.678000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-03 18:22:22.678000000 Z
-    title: Students Brainstorming in Riksdagsvalet
-    description: 
-    url: "//images.ctfassets.net/a1gidpdiipum/3wOXMIF2Agg4i4A4S8esOM/2e9faff502df639c6a4996d1b61250a7/20180905_103947.jpg"
+      id: 66hfGc1PhKss6KSqyWwk00
+      created_at: !ruby/object:DateTime 2018-10-03 21:22:02.190000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 21:34:00.044000000 Z
+    title: Monitoring Disinformation Swedish Elections
+    description: 'These journalists are now monitoring disinformation on Twitter and
+      Facebook at IIS - Internetstiftelsen i Sverige. #popupnewsroom #valet2018'
+    url: "//images.ctfassets.net/a1gidpdiipum/66hfGc1PhKss6KSqyWwk00/b1c3fcdcb4cb389070822f6ac477f9d0/DmezvtmXsAAOlwp.jpg"

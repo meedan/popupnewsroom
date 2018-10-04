@@ -3,9 +3,9 @@ moduleGraphic:
 - sys:
     id: 3xn5tRGPD26W4q8Is4YAUs
     created_at: !ruby/object:DateTime 2018-10-03 15:22:53.559000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-03 15:22:53.559000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-04 13:59:03.048000000 Z
     content_type_id: moduleGraphic
-    revision: 1
+    revision: 2
   title: Approach
   graphic:
     sys:
@@ -15,3 +15,20 @@ moduleGraphic:
     title: illustration approach
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/5rsToO8Lw42MAEYk4Kqq82/1b39c4ba20cf4ad6a394de21e7264380/illustration_approach.svg"
+  full_width: false
+- sys:
+    id: 36snCl9odOWsY6wKyk088I
+    created_at: !ruby/object:DateTime 2018-10-04 13:55:05.002000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-04 13:58:41.746000000 Z
+    content_type_id: moduleGraphic
+    revision: 2
+  title: Abstract for Contact Section
+  graphic:
+    sys:
+      id: 1jWlhMIGDAWmGMCcU0W0M2
+      created_at: !ruby/object:DateTime 2018-10-04 13:55:00.785000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-04 13:55:00.785000000 Z
+    title: Illustration circle and arrow
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/1jWlhMIGDAWmGMCcU0W0M2/215fb9e418868d80e4dbaa58d13b20b1/Group_2.svg"
+  full_width: true

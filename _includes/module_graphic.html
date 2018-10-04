@@ -1,3 +1,5 @@
-<div class="illustration">
+{% assign full_width = module.full_width | default: 'false' %}
+{% assign full_width_class = 'full-width' %}
+<div class="illustration{% if full_width == true %}{{ full_width_class | prepend: ' ' }}{% endif %}">
 	<img src="{{ module.graphic.url }}" alt="{{ module.title }}"/>
 </div>

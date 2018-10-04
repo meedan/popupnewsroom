@@ -170,6 +170,11 @@
   justify-content: center;
 }
 
+.illustration.full-width img {
+	width: 100%;
+	display: block;
+}
+
 @include responsive('min-width: #{$width-tablet}') {
 	.illustration {
 		margin-bottom: $space-large;
