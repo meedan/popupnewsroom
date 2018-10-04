@@ -6,7 +6,7 @@
 	{% for newsroom in newsrooms %}
 		<a class="row" href="/newsrooms/{{ newsroom.url }}">
 			<div class="media-image">
-				<img class="tinted" src="{{ newsroom.hero_image.url | append: '?fm=webp' }}" />
+				<img class="tinted" src="{{ newsroom.hero_image.url | append: '?fl=progressive' }}" />
 			</div>
 			<div class="table-item shrink">{{ newsroom.title }}</div>
 			<div class="table-item expand">{{ newsroom.short_summary }}</div>
