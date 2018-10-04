@@ -24,3 +24,11 @@ link:
     revision: 1
   label: riksdagsvalet.popup.news
   url: http://riksdagsvalet.popup.news
+- sys:
+    id: 1LVwNSoU5a2oGOM2eK2q2k
+    created_at: !ruby/object:DateTime 2018-10-04 15:53:34.120000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-04 15:53:34.120000000 Z
+    content_type_id: link
+    revision: 1
+  label: "#GE2017"
+  url: https://medium.com/popupnews/pop-up-newsroom-ge2017-4933b02314c2

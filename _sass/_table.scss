@@ -2,7 +2,7 @@
 // Table styles
 .table {
 	position: relative;
-  z-index: 1;
+  z-index: 0;
   display: flex;
   flex-wrap: wrap;
   position: relative;
@@ -31,6 +31,9 @@
 	padding: $space-small/3;
 	font-size: 1.222em;
 	line-height: 1;
+	width: 100%;
+	background-color: $porcelain;
+	color: $black;
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
@@ -57,10 +60,11 @@
 	line-height: 1;
 }
 
-.row {
+.table .row {
 	display: flex;
 	width: 100%;
 	justify-content: space-between;
+	font-size: 0.9em;
 }
 
 .row:hover .table-item {
@@ -72,10 +76,10 @@
 @include responsive('min-width: #{$width-tablet}') {
 	.table .media-image {
 		position: absolute;
-		top: -120%;
+		top: -25vh;
 		left: -180px;
 		display: none;
-		z-index: -5;
+		z-index: -1;
 	}
 
 	.row:hover .media-image {
@@ -87,21 +91,15 @@
 	display: block;
 }
 
-.table-item {
-	width: 100%;
-	background-color: $porcelain;
-	color: $black;
-}
-
 .table-item.expand {
-	width: 40%;
-	flex: 1 0 40%;
+	width: 70%;
+	flex: 1 0 70%;
+	line-height: 1.4;
 }
 
 .table-item.shrink {
 	width: 30%;
 	flex: 1 0 30%;
-	line-height: 1.4;
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
@@ -112,7 +110,7 @@
 	.table-item.shrink {
 		width: 40%;
 		flex: 1 0 40%;
-		border-right: 1px solid;
+		// border-right: 1px solid;
 	}
 	.table-item.shrink:last-child {
 		display: none;

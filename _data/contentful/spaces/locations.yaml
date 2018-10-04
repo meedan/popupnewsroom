@@ -14,3 +14,10 @@ location:
     content_type_id: location
     revision: 1
   title: Sweden
+- sys:
+    id: 1CXaGERRsEQsu0a6SMU0AE
+    created_at: !ruby/object:DateTime 2018-10-04 16:05:31.867000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-04 16:05:31.867000000 Z
+    content_type_id: location
+    revision: 1
+  title: United Kingdom

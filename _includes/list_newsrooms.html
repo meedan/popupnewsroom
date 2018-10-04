@@ -6,11 +6,10 @@
 	{% for newsroom in newsrooms %}
 		<a class="row" href="/newsrooms/{{ newsroom.url }}">
 			<div class="media-image">
-				<img class="tinted" src="{{ newsroom.hero_image.url }}" />
+				<img class="tinted" src="{{ newsroom.hero_image.url | append: '?fm=webp' }}" />
 			</div>
-			<div class="table-item expand">{{ newsroom.title }}</div>
-			<div class="table-item shrink">{{ newsroom.date }}</div>
-			<div class="table-item shrink">{{ newsroom.location.title }}</div>
+			<div class="table-item shrink">{{ newsroom.title }}</div>
+			<div class="table-item expand">{{ newsroom.short_summary }}</div>
 		</a>
 	{% endfor %}
 </div>

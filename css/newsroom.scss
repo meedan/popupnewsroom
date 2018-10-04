@@ -11,7 +11,7 @@
 	margin-top: 0;
 	background-size: 100%;
 	height: auto;
-	
+	opacity: 0.875;
 }
 
 .newsroom .p-header-image img {
@@ -20,9 +20,10 @@
   width: 100%;
 }
 
-.newsroom .p-header .p-header-container {
+.newsroom .p-header-container {
 	width: 90%;
 	max-width: $page-width;
+	margin: 0 auto;
 }
 
 .newsroom .p-header-container .logo {

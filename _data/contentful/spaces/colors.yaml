@@ -68,3 +68,54 @@ color:
     title: purplish blue
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/4LOKrjq5hSeAewIOe0gE46/0928f762ebf84433c0785934f19bed31/Pop-up_Newsroom.png"
+- sys:
+    id: 1B4F1nslAksUqCGQqWos6S
+    created_at: !ruby/object:DateTime 2018-10-04 16:16:03.585000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-04 16:16:03.585000000 Z
+    content_type_id: color
+    revision: 1
+  name: Yellow
+  value: "#FFE34D"
+  text: "#10212F"
+  thumbnail:
+    sys:
+      id: 37lMpitcDekwEqggGkkW8W
+      created_at: !ruby/object:DateTime 2018-10-04 16:15:54.772000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-04 16:15:54.772000000 Z
+    title: Gorse
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/37lMpitcDekwEqggGkkW8W/f8ed81a0d2b7eec1fec212f3979aa639/yellow.png"
+- sys:
+    id: 3GaIxk4t3yAKG4Mqo4O4uG
+    created_at: !ruby/object:DateTime 2018-10-04 16:18:47.076000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-04 16:18:47.076000000 Z
+    content_type_id: color
+    revision: 1
+  name: Malibu
+  value: "#66B3FF"
+  text: "#FFFFFF"
+  thumbnail:
+    sys:
+      id: 59z7496XfWeUeis6eCc80u
+      created_at: !ruby/object:DateTime 2018-10-04 16:18:43.885000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-04 16:18:43.885000000 Z
+    title: malibu blue
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/59z7496XfWeUeis6eCc80u/1c6a32b11dd4abd2b1715b45acf188ef/malibu_blue.png"
+- sys:
+    id: 2JmMSdMUP6s2c0IigGyYco
+    created_at: !ruby/object:DateTime 2018-10-04 16:20:30.158000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-04 16:20:30.158000000 Z
+    content_type_id: color
+    revision: 1
+  name: Pink
+  value: "#FF66B3"
+  text: "#FFFFFF"
+  thumbnail:
+    sys:
+      id: 5WHPyISDLyi2msGk6ASEKK
+      created_at: !ruby/object:DateTime 2018-10-04 16:20:26.653000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-04 16:20:26.653000000 Z
+    title: pink
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/5WHPyISDLyi2msGk6ASEKK/885e099b3bab187d3d341fc0f0c34a33/pink.png"

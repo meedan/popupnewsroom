@@ -109,3 +109,20 @@ media:
     description: 'These journalists are now monitoring disinformation on Twitter and
       Facebook at IIS - Internetstiftelsen i Sverige. #popupnewsroom #valet2018'
     url: "//images.ctfassets.net/a1gidpdiipum/66hfGc1PhKss6KSqyWwk00/b1c3fcdcb4cb389070822f6ac477f9d0/DmezvtmXsAAOlwp.jpg"
+- sys:
+    id: 2qNtg7JGs0Oo8u6Mu00Gks
+    created_at: !ruby/object:DateTime 2018-10-04 16:10:56.452000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-04 16:10:56.452000000 Z
+    content_type_id: media
+    revision: 1
+  caption_title: A new approach
+  caption: To facilitate this process, we used a couple of human-centered design methods
+    advocated by the Luma Institute.
+  image:
+    sys:
+      id: 56DrOF2UH6skIg8EK8qmiQ
+      created_at: !ruby/object:DateTime 2018-10-04 16:10:50.711000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-04 16:10:50.711000000 Z
+    title: PopUpGE2017 3
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/56DrOF2UH6skIg8EK8qmiQ/e2c16f5da7de938aea78ea84da98f6b8/PopUpGE2017_3.jpg"

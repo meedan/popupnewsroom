@@ -5,20 +5,18 @@
             <h2>Latest</h2>
             <div class="updates">
                 {% for update in updates %}
-                    {% capture image-url %}{{ update.image.url }}{% endcapture %}
-                    {% capture update-tag %}{{ update.tag }}{% endcapture %}
-                    {% capture update-title %}{{ update.title }}{% endcapture %}
-                    {% capture update-filter %}{{ update.image_filter }}{% endcapture %}
-                    {% capture update-date %}{{ update.sys.created_at | date_to_string }}{% endcapture %}
+                    {% capture update-date %}
+                        {{ update.sys.created_at | date_to_string }}
+                    {% endcapture %}
                     <div class="update">
                     {% 
                         include card.html 
-                        image=image-url
-                        title=update-tag
+                        image=update.image.url
+                        title=update.tag
                         block_tag = "h3"
                         date=update-date
-                        description=update-title
-                        filter=update-filter
+                        description=update.title
+                        filter=update.filter_image
                     %}
                     </div>
                 {% endfor %}

@@ -29,3 +29,29 @@ moduleLeadImage:
         and debunking misinformation spread via social networks.
       url: "//images.ctfassets.net/a1gidpdiipum/5ZlapFhoROAs08AaAqEga2/ce288f228d37aaee04b820c3bdd63929/P3070187.jpg"
   filter_image: true
+- sys:
+    id: 1Efvl3toEE2WEq4sA6GGCO
+    created_at: !ruby/object:DateTime 2018-10-04 16:11:00.507000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-04 16:11:00.507000000 Z
+    content_type_id: moduleLeadImage
+    revision: 1
+  title: A new approach
+  media:
+    sys:
+      id: 2qNtg7JGs0Oo8u6Mu00Gks
+      created_at: !ruby/object:DateTime 2018-10-04 16:10:56.452000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-04 16:10:56.452000000 Z
+      content_type_id: media
+      revision: 1
+    caption_title: A new approach
+    caption: To facilitate this process, we used a couple of human-centered design
+      methods advocated by the Luma Institute.
+    image:
+      sys:
+        id: 56DrOF2UH6skIg8EK8qmiQ
+        created_at: !ruby/object:DateTime 2018-10-04 16:10:50.711000000 Z
+        updated_at: !ruby/object:DateTime 2018-10-04 16:10:50.711000000 Z
+      title: PopUpGE2017 3
+      description: 
+      url: "//images.ctfassets.net/a1gidpdiipum/56DrOF2UH6skIg8EK8qmiQ/e2c16f5da7de938aea78ea84da98f6b8/PopUpGE2017_3.jpg"
+  filter_image: true

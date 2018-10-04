@@ -395,9 +395,9 @@ section:
 - sys:
     id: 3xIS74Sko8QqOEwuW8g28i
     created_at: !ruby/object:DateTime 2018-10-03 16:33:53.561000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-03 16:37:48.068000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-04 15:10:37.526000000 Z
     content_type_id: section
-    revision: 2
+    revision: 3
   title: Newsrooms
   color:
     sys:
@@ -421,12 +421,21 @@ section:
   - sys:
       id: 49m7kHg2PCKAsGU2aUU6Iy
       created_at: !ruby/object:DateTime 2018-10-03 16:37:43.725000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-03 16:37:43.725000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-04 15:10:08.851000000 Z
       content_type_id: moduleLeadText
+      revision: 3
+    content: To date, Pop-Up Newsroom has run six Pop-Up Newsroom initiatives, ranging
+      from one-hour design sprints to multi-month award winning collaborations.
+  - sys:
+      id: 6O3zOTTBlY6Y4kqO6GUsyk
+      created_at: !ruby/object:DateTime 2018-10-04 15:10:31.730000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-04 15:10:31.730000000 Z
+      content_type_id: moduleText
       revision: 1
-    content: Our role is to connect news organisations through our extensive network,
-      secure funding opportunities, manage the projects and partners and create shareable
-      resources at all stages.
+    title: Newsrooms detail
+    content: 'All Pop-Up Newsrooms share a human-centered co-design process with stakeholders,
+      and place collaboration at the heart of our work. Pop-Up Newsrooms we''ve initiated
+      include:'
 - sys:
     id: 3WXlKF1rewSGUyM4YiQKu2
     created_at: !ruby/object:DateTime 2018-10-03 18:05:10.087000000 Z

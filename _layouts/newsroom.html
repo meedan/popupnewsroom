@@ -7,18 +7,18 @@ custom_js_lib: loadCSS
       {% include head.html %}
       <body class="page-section newsroom">
             <div class="site-wrapper">
-                  <div class="p-header" style="background-image:url({{ page.hero_image.url | append: '?fm=webp' }})">
+                  <div class="p-header" style="background-image:url({{ page.hero_image.url | append: '?fm=webp' }});">
                     <div class="p-header-image" style="visibility: hidden;">
                       <img src="{{ page.hero_image.url | append: '?fm=webp' }}" />
                     </div>
-                    <div class="p-header-container">
-                               <a href="/"><h1 class="logo">
-                                    {% include logo.html %}
-                                    <span class="logo-text">
-                                          <span class="logo-text-original">{{ page.title }}</span>
-                                          </span>
-                              </h1></a>
-                        </div>
+                  </div>
+                  <div class="p-header-container">
+                         <a href="/"><h1 class="logo">
+                              {% include logo.html %}
+                              <span class="logo-text">
+                                    <span class="logo-text-original">{{ page.title }}</span>
+                                    </span>
+                        </h1></a>
                   </div>
                   <div class="newsroom-content-wrapper" style="background-color: {{ page.color.value }};">
                     <div class="newsroom-header">

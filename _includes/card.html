@@ -27,7 +27,7 @@
         {% endif %}
         <{{ block_tag }} class="description">{{ description }}</{{ block_tag }}>
     </div>
-    <div class="card-graphic{% if filter == 'true' %}{{ filter_class | prepend: ' ' }}{% endif %}{% if logo == true %}{{ logo_class | prepend: ' ' }}{% endif %}" style="background-image:url({{ graphic }})"></div>
+    <div class="card-graphic{% if filter == true %}{{ filter_class | prepend: ' ' }}{% endif %}{% if logo == true %}{{ logo_class | prepend: ' ' }}{% endif %}" style="background-image:url({{ graphic }})"></div>
 </div>
 {% if link != '' %}
 </a>
