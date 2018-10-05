@@ -199,3 +199,61 @@ moduleCard:
     title: Lund University Logo
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/7iXYcaok5amkqqoCcYUsic/90230c90886c1d08e60d69a0eff2763d/8bcTcRrO_400x400.jpg"
+- sys:
+    id: 5bYIMshf5SYsoIAWyOg8IQ
+    created_at: !ruby/object:DateTime 2018-10-05 20:07:24.319000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-05 20:07:24.319000000 Z
+    content_type_id: moduleCard
+    revision: 1
+  title: " Reynolds Journalism Institute, Missouri School of Journalism, University
+    of Missouri"
+  path: reynolds-journalism-institute-missouri-school-of-journalism-university-of
+  image:
+    sys:
+      id: zzmLNqHHXwcQ0iyUMAGy4
+      created_at: !ruby/object:DateTime 2018-10-05 20:09:17.973000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-05 20:09:17.973000000 Z
+    title: RJI Logo
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/zzmLNqHHXwcQ0iyUMAGy4/fabf00869de15e4283bad23d26d38fd3/rji-600x600.jpg"
+  filter_image: false
+  logo: true
+  link: https://rjionline.org
+- sys:
+    id: 2v9tGoIyHaU6cEwGw0EOUM
+    created_at: !ruby/object:DateTime 2018-10-05 20:07:24.321000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-05 20:07:24.321000000 Z
+    content_type_id: moduleCard
+    revision: 1
+  title: Krzana
+  path: krzana
+  image:
+    sys:
+      id: 6MRiismwBU4SaoWkQO8ua0
+      created_at: !ruby/object:DateTime 2018-10-05 20:09:17.989000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-05 20:09:17.989000000 Z
+    title: Krzana logo
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/6MRiismwBU4SaoWkQO8ua0/f49e1985ac13895af4202aff99132f97/Krzana-logo-header.png"
+  filter_image: false
+  logo: true
+  link: https://krzana.com/
+- sys:
+    id: 1Al3oup5xiSquwiKC0SUwO
+    created_at: !ruby/object:DateTime 2018-10-05 20:07:24.638000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-05 20:07:24.638000000 Z
+    content_type_id: moduleCard
+    revision: 1
+  title: " AJ+"
+  path: aj
+  image:
+    sys:
+      id: 4wjAiqXeUoeKuA0oK2wYku
+      created_at: !ruby/object:DateTime 2018-10-01 15:11:30.349000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-01 15:11:30.349000000 Z
+    title: AJ+ Logo
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/4wjAiqXeUoeKuA0oK2wYku/0d84b58109eb1e165794235293c03106/1124px-AJ_2B_logo.svg.png"
+  filter_image: false
+  logo: true
+  link: https://twitter.com/ajplus

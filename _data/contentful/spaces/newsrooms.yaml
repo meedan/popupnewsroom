@@ -3,9 +3,9 @@ newsroom:
 - sys:
     id: 6JqjX8Q5rOwouC02eAyOCS
     created_at: !ruby/object:DateTime 2018-09-29 18:25:40.734000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-04 16:29:20.264000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-05 19:56:34.725000000 Z
     content_type_id: newsroom
-    revision: 9
+    revision: 10
   title: Verificado
   short_summary: Working with over 90 Mexican partners to design and implement a national-profile
     anti-misinformation initiative around elections in Mexico.
@@ -87,18 +87,6 @@ newsroom:
         id: 6NExKJSg7eaG2wuesOquUW
     - sys:
         id: 4Kpn4qveKsY2u60ag8IIs2
-  - sys:
-      id: 5Ewug9o1LaWEK6GkMsaGYG
-      created_at: !ruby/object:DateTime 2018-09-29 18:20:21.104000000 Z
-      updated_at: !ruby/object:DateTime 2018-09-29 18:22:25.251000000 Z
-      content_type_id: moduleItemHalf
-      revision: 2
-    title: Verificado Photos
-    content:
-    - sys:
-        id: 1AZNUchuu0GwsiYwKgc8gE
-    - sys:
-        id: 3f36B3iOM0ms4q4UO6EuAE
   sections:
   - sys:
       id: 4VwfKQCz1Swo8GM0K6COmM
@@ -137,9 +125,9 @@ newsroom:
 - sys:
     id: 4mUB9YVo0g8skAyMGUkiiS
     created_at: !ruby/object:DateTime 2018-10-03 18:12:05.849000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-04 16:29:17.674000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-05 19:52:47.619000000 Z
     content_type_id: newsroom
-    revision: 5
+    revision: 6
   title: Riksdagsvalet
   short_summary: Working with university, media and technology partners to track misinformation
     and report on the voting process in Sweden's general election.
@@ -187,18 +175,6 @@ newsroom:
         id: 5XwDzK0KmAmg8qqIMUEkSU
     - sys:
         id: DOs9nEkEi42Q8YcKmcO0M
-  - sys:
-      id: 4tu9uIAsc0SeqW6qUQCigy
-      created_at: !ruby/object:DateTime 2018-10-03 18:24:03.669000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-03 18:24:03.669000000 Z
-      content_type_id: moduleItemHalf
-      revision: 1
-    title: Riksdagsvalet Details
-    content:
-    - sys:
-        id: 5V29ekPmr6ww0eAeYQkIkM
-    - sys:
-        id: uf0nbBgereuWI8SIEGcqm
   sections:
   - sys:
       id: 3WXlKF1rewSGUyM4YiQKu2
@@ -237,9 +213,9 @@ newsroom:
 - sys:
     id: 3GaBxvM4Zy8ACoM8ImeMos
     created_at: !ruby/object:DateTime 2018-10-04 15:54:35.915000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-04 16:13:23.632000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-05 19:52:30.996000000 Z
     content_type_id: newsroom
-    revision: 2
+    revision: 3
   title: UK General Elections
   short_summary: Reporting on the voting process in the UK's snap general election
     (2017)
@@ -298,17 +274,6 @@ newsroom:
     content: There are so many tools you can use to utilise information on social
       media. It was incredibly useful learning how to use these tools and actually
       put them to use in a real life newsroom setting.
-  - sys:
-      id: 1Efvl3toEE2WEq4sA6GGCO
-      created_at: !ruby/object:DateTime 2018-10-04 16:11:00.507000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-04 16:11:00.507000000 Z
-      content_type_id: moduleLeadImage
-      revision: 1
-    title: A new approach
-    media:
-      sys:
-        id: 2qNtg7JGs0Oo8u6Mu00Gks
-    filter_image: true
   color:
     sys:
       id: 1z7NvOuycoMOcCKYuQuq0U

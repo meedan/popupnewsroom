@@ -112,9 +112,9 @@ media:
 - sys:
     id: 2qNtg7JGs0Oo8u6Mu00Gks
     created_at: !ruby/object:DateTime 2018-10-04 16:10:56.452000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-04 16:10:56.452000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-05 19:52:17.317000000 Z
     content_type_id: media
-    revision: 1
+    revision: 2
   caption_title: A new approach
   caption: To facilitate this process, we used a couple of human-centered design methods
     advocated by the Luma Institute.
