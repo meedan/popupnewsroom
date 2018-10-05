@@ -187,9 +187,9 @@ section:
 - sys:
     id: PjvArwoskmoSq8qmmsecC
     created_at: !ruby/object:DateTime 2018-10-03 15:23:01.989000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-03 15:23:01.989000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-05 19:37:31.186000000 Z
     content_type_id: section
-    revision: 1
+    revision: 3
   title: Approach
   color:
     sys:
