@@ -8,7 +8,6 @@ color:
     revision: 2
   name: Orange
   value: "#FF941F"
-  text: "#FFFFFF"
   thumbnail:
     sys:
       id: 2tipmvhO4UY4kWqKkmGGEc
@@ -17,6 +16,7 @@ color:
     title: popup orange
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/2tipmvhO4UY4kWqKkmGGEc/14072da181f9815286b46e14f940cfd0/popup_orange.png"
+  text: "#FFFFFF"
 - sys:
     id: 34g9GaUx6UwK20Ui4Y0oOu
     created_at: !ruby/object:DateTime 2018-10-01 14:56:00.990000000 Z
@@ -25,7 +25,6 @@ color:
     revision: 2
   name: Bittersweet Pink
   value: "#FF6666"
-  text: "#FFFFFF"
   thumbnail:
     sys:
       id: 2xOUc99HuUusY8u448wmyU
@@ -34,6 +33,7 @@ color:
     title: Bittersweet Pink
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/2xOUc99HuUusY8u448wmyU/55cf2b70468a222e77ae6f65455b79f2/Pop-up_Newsroom.png"
+  text: "#FFFFFF"
 - sys:
     id: 67645n7FzUGGmu4MkU6os4
     created_at: !ruby/object:DateTime 2018-10-03 14:46:18.144000000 Z
@@ -42,7 +42,6 @@ color:
     revision: 2
   name: Gray
   value: "#E7E8EA"
-  text: "#FF6666"
   thumbnail:
     sys:
       id: 5DV5rpAPnyA8WIewE44kKQ
@@ -51,15 +50,15 @@ color:
     title: Gray (Porcelain)
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/5DV5rpAPnyA8WIewE44kKQ/ef08391e06536efa99a64bd4c888ade7/porcelain.png"
+  text: "#FF6666"
 - sys:
     id: 1z7NvOuycoMOcCKYuQuq0U
     created_at: !ruby/object:DateTime 2018-10-03 17:44:39.309000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-03 17:44:39.309000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-05 09:43:15.963000000 Z
     content_type_id: color
-    revision: 1
+    revision: 2
   name: Cornflower Blue
   value: "#6771FA"
-  text: "#FFFFFF"
   thumbnail:
     sys:
       id: 4LOKrjq5hSeAewIOe0gE46
@@ -68,6 +67,7 @@ color:
     title: purplish blue
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/4LOKrjq5hSeAewIOe0gE46/0928f762ebf84433c0785934f19bed31/Pop-up_Newsroom.png"
+  text: "#FFFFFF"
 - sys:
     id: 1B4F1nslAksUqCGQqWos6S
     created_at: !ruby/object:DateTime 2018-10-04 16:16:03.585000000 Z
@@ -76,7 +76,6 @@ color:
     revision: 1
   name: Yellow
   value: "#FFE34D"
-  text: "#10212F"
   thumbnail:
     sys:
       id: 37lMpitcDekwEqggGkkW8W
@@ -85,6 +84,7 @@ color:
     title: Gorse
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/37lMpitcDekwEqggGkkW8W/f8ed81a0d2b7eec1fec212f3979aa639/yellow.png"
+  text: "#10212F"
 - sys:
     id: 3GaIxk4t3yAKG4Mqo4O4uG
     created_at: !ruby/object:DateTime 2018-10-04 16:18:47.076000000 Z
@@ -93,7 +93,6 @@ color:
     revision: 1
   name: Malibu
   value: "#66B3FF"
-  text: "#FFFFFF"
   thumbnail:
     sys:
       id: 59z7496XfWeUeis6eCc80u
@@ -102,6 +101,7 @@ color:
     title: malibu blue
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/59z7496XfWeUeis6eCc80u/1c6a32b11dd4abd2b1715b45acf188ef/malibu_blue.png"
+  text: "#FFFFFF"
 - sys:
     id: 2JmMSdMUP6s2c0IigGyYco
     created_at: !ruby/object:DateTime 2018-10-04 16:20:30.158000000 Z
@@ -110,7 +110,6 @@ color:
     revision: 1
   name: Pink
   value: "#FF66B3"
-  text: "#FFFFFF"
   thumbnail:
     sys:
       id: 5WHPyISDLyi2msGk6ASEKK
@@ -119,3 +118,4 @@ color:
     title: pink
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/5WHPyISDLyi2msGk6ASEKK/885e099b3bab187d3d341fc0f0c34a33/pink.png"
+  text: "#FFFFFF"

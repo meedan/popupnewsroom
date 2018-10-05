@@ -124,7 +124,6 @@ newsroom:
       revision: 2
     name: Orange
     value: "#FF941F"
-    text: "#FFFFFF"
     thumbnail:
       sys:
         id: 2tipmvhO4UY4kWqKkmGGEc
@@ -133,6 +132,7 @@ newsroom:
       title: popup orange
       description: 
       url: "//images.ctfassets.net/a1gidpdiipum/2tipmvhO4UY4kWqKkmGGEc/14072da181f9815286b46e14f940cfd0/popup_orange.png"
+    text: "#FFFFFF"
   url: verificado
 - sys:
     id: 4mUB9YVo0g8skAyMGUkiiS
@@ -219,12 +219,11 @@ newsroom:
     sys:
       id: 1z7NvOuycoMOcCKYuQuq0U
       created_at: !ruby/object:DateTime 2018-10-03 17:44:39.309000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-03 17:44:39.309000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-05 09:43:15.963000000 Z
       content_type_id: color
-      revision: 1
+      revision: 2
     name: Cornflower Blue
     value: "#6771FA"
-    text: "#FFFFFF"
     thumbnail:
       sys:
         id: 4LOKrjq5hSeAewIOe0gE46
@@ -233,6 +232,7 @@ newsroom:
       title: purplish blue
       description: 
       url: "//images.ctfassets.net/a1gidpdiipum/4LOKrjq5hSeAewIOe0gE46/0928f762ebf84433c0785934f19bed31/Pop-up_Newsroom.png"
+    text: "#FFFFFF"
   url: riksdagsvalet
 - sys:
     id: 3GaBxvM4Zy8ACoM8ImeMos
@@ -313,12 +313,11 @@ newsroom:
     sys:
       id: 1z7NvOuycoMOcCKYuQuq0U
       created_at: !ruby/object:DateTime 2018-10-03 17:44:39.309000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-03 17:44:39.309000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-05 09:43:15.963000000 Z
       content_type_id: color
-      revision: 1
+      revision: 2
     name: Cornflower Blue
     value: "#6771FA"
-    text: "#FFFFFF"
     thumbnail:
       sys:
         id: 4LOKrjq5hSeAewIOe0gE46
@@ -327,4 +326,5 @@ newsroom:
       title: purplish blue
       description: 
       url: "//images.ctfassets.net/a1gidpdiipum/4LOKrjq5hSeAewIOe0gE46/0928f762ebf84433c0785934f19bed31/Pop-up_Newsroom.png"
+    text: "#FFFFFF"
   url: uk-general-elections

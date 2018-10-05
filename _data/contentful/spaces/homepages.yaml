@@ -11,21 +11,21 @@ homepage:
     sys:
       id: 56dG8WJyH6ykKkUmACQYII
       created_at: !ruby/object:DateTime 2018-10-02 15:20:51.202000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-03 18:47:39.420000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-04 17:32:52.240000000 Z
       content_type_id: landingPage
-      revision: 8
+      revision: 9
     title: Pop-Up Newsroom
     url: "/"
     description: Pop-Up Newsroom innovates collaborative reporting initiatives in
       different countries and contexts – from elections to natural disasters.
     cover_image:
       sys:
-        id: 6cC45wiX6wAEqemcyCwQSK
-        created_at: !ruby/object:DateTime 2018-10-02 15:20:30.609000000 Z
-        updated_at: !ruby/object:DateTime 2018-10-02 15:20:30.609000000 Z
-      title: Pop-Up Newsroom Cover Image
+        id: 5wKmEY1ugwGEo6m8EQgAMw
+        created_at: !ruby/object:DateTime 2018-10-04 17:32:46.330000000 Z
+        updated_at: !ruby/object:DateTime 2018-10-04 17:38:36.789000000 Z
+      title: Pop-Up Newsroom
       description: 
-      url: "//images.ctfassets.net/a1gidpdiipum/6cC45wiX6wAEqemcyCwQSK/0bc36f5e09fce2d7f3f76968b27e741d/P3070182.jpg"
+      url: "//images.ctfassets.net/a1gidpdiipum/5wKmEY1ugwGEo6m8EQgAMw/7540011ba6bc901547522bbd1cccfaa2/P3070176.jpg"
     sections:
     - sys:
         id: PjvArwoskmoSq8qmmsecC

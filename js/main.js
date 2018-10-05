@@ -12,15 +12,9 @@ $(document).ready(function() {
 	});
 
 	// Slick Slider for updates
-	$('.cards').slick({
-		dots: true,
-	});
-
-	$('.newsroom .logo').hover(function(){
-      $('.newsroom .p-header').addClass("active");
-  }, function () {
-      $('.newsroom .p-header').removeClass("active");
-  });
+	// $('.cards').slick({
+	// 	dots: true,
+	// });
 
 
 });

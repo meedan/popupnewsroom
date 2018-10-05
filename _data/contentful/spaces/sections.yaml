@@ -16,7 +16,6 @@ section:
       revision: 2
     name: Bittersweet Pink
     value: "#FF6666"
-    text: "#FFFFFF"
     thumbnail:
       sys:
         id: 2xOUc99HuUusY8u448wmyU
@@ -25,6 +24,7 @@ section:
       title: Bittersweet Pink
       description: 
       url: "//images.ctfassets.net/a1gidpdiipum/2xOUc99HuUusY8u448wmyU/55cf2b70468a222e77ae6f65455b79f2/Pop-up_Newsroom.png"
+    text: "#FFFFFF"
   modules:
   - sys:
       id: 42pCDJa75YuIkwie02maoC
@@ -62,7 +62,6 @@ section:
       revision: 2
     name: Bittersweet Pink
     value: "#FF6666"
-    text: "#FFFFFF"
     thumbnail:
       sys:
         id: 2xOUc99HuUusY8u448wmyU
@@ -71,6 +70,7 @@ section:
       title: Bittersweet Pink
       description: 
       url: "//images.ctfassets.net/a1gidpdiipum/2xOUc99HuUusY8u448wmyU/55cf2b70468a222e77ae6f65455b79f2/Pop-up_Newsroom.png"
+    text: "#FFFFFF"
   modules:
   - sys:
       id: 70wbjXVNhmO0KeK4Ace4cO
@@ -108,7 +108,6 @@ section:
       revision: 2
     name: Gray
     value: "#E7E8EA"
-    text: "#FF6666"
     thumbnail:
       sys:
         id: 5DV5rpAPnyA8WIewE44kKQ
@@ -117,6 +116,7 @@ section:
       title: Gray (Porcelain)
       description: 
       url: "//images.ctfassets.net/a1gidpdiipum/5DV5rpAPnyA8WIewE44kKQ/ef08391e06536efa99a64bd4c888ade7/porcelain.png"
+    text: "#FF6666"
   modules:
   - sys:
       id: 2GPUvhIYEog4OQC8QEk0m2
@@ -200,7 +200,6 @@ section:
       revision: 2
     name: Gray
     value: "#E7E8EA"
-    text: "#FF6666"
     thumbnail:
       sys:
         id: 5DV5rpAPnyA8WIewE44kKQ
@@ -209,6 +208,7 @@ section:
       title: Gray (Porcelain)
       description: 
       url: "//images.ctfassets.net/a1gidpdiipum/5DV5rpAPnyA8WIewE44kKQ/ef08391e06536efa99a64bd4c888ade7/porcelain.png"
+    text: "#FF6666"
   modules:
   - sys:
       id: 1pWvRA7cwAWQmwUaimMo60
@@ -261,7 +261,6 @@ section:
       revision: 2
     name: Bittersweet Pink
     value: "#FF6666"
-    text: "#FFFFFF"
     thumbnail:
       sys:
         id: 2xOUc99HuUusY8u448wmyU
@@ -270,6 +269,7 @@ section:
       title: Bittersweet Pink
       description: 
       url: "//images.ctfassets.net/a1gidpdiipum/2xOUc99HuUusY8u448wmyU/55cf2b70468a222e77ae6f65455b79f2/Pop-up_Newsroom.png"
+    text: "#FFFFFF"
   modules:
   - sys:
       id: 1nyjC3Gnk8UcGG2MMOiKAK
@@ -347,7 +347,6 @@ section:
       revision: 2
     name: Bittersweet Pink
     value: "#FF6666"
-    text: "#FFFFFF"
     thumbnail:
       sys:
         id: 2xOUc99HuUusY8u448wmyU
@@ -356,6 +355,7 @@ section:
       title: Bittersweet Pink
       description: 
       url: "//images.ctfassets.net/a1gidpdiipum/2xOUc99HuUusY8u448wmyU/55cf2b70468a222e77ae6f65455b79f2/Pop-up_Newsroom.png"
+    text: "#FFFFFF"
   modules:
   - sys:
       id: 3zRNpMQ7agEa0mCKeA2QyQ
@@ -408,7 +408,6 @@ section:
       revision: 2
     name: Orange
     value: "#FF941F"
-    text: "#FFFFFF"
     thumbnail:
       sys:
         id: 2tipmvhO4UY4kWqKkmGGEc
@@ -417,6 +416,7 @@ section:
       title: popup orange
       description: 
       url: "//images.ctfassets.net/a1gidpdiipum/2tipmvhO4UY4kWqKkmGGEc/14072da181f9815286b46e14f940cfd0/popup_orange.png"
+    text: "#FFFFFF"
   modules:
   - sys:
       id: 49m7kHg2PCKAsGU2aUU6Iy
@@ -452,7 +452,6 @@ section:
       revision: 2
     name: Bittersweet Pink
     value: "#FF6666"
-    text: "#FFFFFF"
     thumbnail:
       sys:
         id: 2xOUc99HuUusY8u448wmyU
@@ -461,6 +460,7 @@ section:
       title: Bittersweet Pink
       description: 
       url: "//images.ctfassets.net/a1gidpdiipum/2xOUc99HuUusY8u448wmyU/55cf2b70468a222e77ae6f65455b79f2/Pop-up_Newsroom.png"
+    text: "#FFFFFF"
   modules:
   - sys:
       id: 5GznlEdwiIWkw0UQsaMYCY

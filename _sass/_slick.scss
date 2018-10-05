@@ -65,11 +65,11 @@ $slick-opacity-not-active: 0.25 !default;
     position: absolute;
     display: block;
     height: 100%;
-    width: 20px;
+    width: 40px;
     line-height: 0px;
     font-size: 0px;
     cursor: pointer;
-    background: transparent;
+    background: rgba($black, 0.1);
     color: transparent;
     top: 0;
     // -webkit-transform: translate(0, -50%);
@@ -80,7 +80,7 @@ $slick-opacity-not-active: 0.25 !default;
     outline: none;
     &:hover, &:focus {
         outline: none;
-        background: rgba($black, 0.1);
+        background: rgba($black, 0.4);
         color: transparent;
         &:before {
             opacity: $slick-opacity-on-hover;
@@ -101,29 +101,29 @@ $slick-opacity-not-active: 0.25 !default;
 }
 
 .slick-prev {
-    left: -20px;
+    left: -40px;
     [dir="rtl"] & {
         left: auto;
-        right: -20px;
+        right: -40px;
     }
     &:before {
-        // content: $slick-prev-character;
+        content: $slick-prev-character;
         [dir="rtl"] & {
-            // content: $slick-next-character;
+            content: $slick-next-character;
         }
     }
 }
 
 .slick-next {
-    right: -20px;
+    right: -40px;
     [dir="rtl"] & {
-        left: -20px;
+        left: -40px;
         right: auto;
     }
     &:before {
-        // content: $slick-next-character;
+        content: $slick-next-character;
         [dir="rtl"] & {
-            // content: $slick-prev-character;
+            content: $slick-prev-character;
         }
     }
 }
