@@ -31,13 +31,13 @@ plugins:
 # Config elements specific to jeckyll-seo-tag
 # https://github.com/jekyll/jekyll-seo-tag
 twitter:
-  username: PopUp_EU
+  username: popupnews
 logo: /images/logo@2x.png
 
 social:
   name: Pop-Up Newsroom
   links:
-    - https://twitter.com/PopUp_EU
+    - https://twitter.com/popupnews
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
