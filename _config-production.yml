@@ -1,6 +1,4 @@
-
-
-# Get data from Contentful
+# Get data from Contentful Master Environment
 contentful:
   output: true
   spaces:
@@ -103,15 +101,3 @@ contentful:
         all_entries: true
         destination: 'contentful/spaces/'
 
-
-# Generate pages from Contentful data files
-page_gen-dirs: true
-page_gen:
-  - data: 'contentful.spaces.newsrooms.newsroom'
-    template: 'newsroom'
-    name: 'url'
-    dir: 'newsrooms'
-  - data: 'contentful.spaces.landingPages.landingPage'
-    template: 'landing'
-    name: 'url'
-    dir: 'pages'

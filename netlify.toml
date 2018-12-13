@@ -7,9 +7,9 @@
 
 [build]
   publish = "_site/"
-  command = "jekyll contentful --rebuild --config _config.yml,_config-production.yml"
+  command = "CONTENTFUL_ENVIRONMENT=master jekyll contentful --rebuild --config _config.yml"
 
 # Production context: All deploys to the main
 # repository branch will inherit these settings.
 [context.develop]
-  command = "jekyll contentful --rebuild --config _config.yml,_config-dev.yml"
+  command = "CONTENTFUL_ENVIRONMENT=develop jekyll contentful --rebuild --config _config.yml"

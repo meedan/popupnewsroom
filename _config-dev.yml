@@ -1,4 +1,4 @@
-# Get data from Contentful
+# Get data from Contentful Develop Environment
 contentful:
   output: true
   spaces:
