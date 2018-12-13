@@ -291,9 +291,9 @@ section:
   - sys:
       id: 7u9JNEPNnOwYUUqMuasgSW
       created_at: !ruby/object:DateTime 2018-10-03 15:34:37.878000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-03 15:34:37.878000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-12 20:31:00.128000000 Z
       content_type_id: moduleInNumbers
-      revision: 1
+      revision: 2
     title: In numbers
     stats:
     - sys:

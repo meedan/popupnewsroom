@@ -3,9 +3,9 @@ moduleCard:
 - sys:
     id: 1NZisAerOwK06WAYMKO8Ma
     created_at: !ruby/object:DateTime 2018-10-01 15:11:38.528000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-01 17:13:12.312000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-05 20:17:08.501000000 Z
     content_type_id: moduleCard
-    revision: 2
+    revision: 3
   title: AJ+ Español
   path: aj-espanol
   image:
@@ -16,18 +16,15 @@ moduleCard:
     title: AJ+ Logo
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/4wjAiqXeUoeKuA0oK2wYku/0d84b58109eb1e165794235293c03106/1124px-AJ_2B_logo.svg.png"
-  description: With our tools and training we forward new workflows, new techniques,
-    and new possibilities for newsrooms and educators, helping drive innovation across
-    the sector.
   filter_image: false
   logo: true
   link: https://www.facebook.com/ajplusespanol/
 - sys:
     id: 5o5KdToZ20SuAkwmkQ6KK
     created_at: !ruby/object:DateTime 2018-10-01 15:37:38.532000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-01 17:13:29.602000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-05 20:17:08.542000000 Z
     content_type_id: moduleCard
-    revision: 2
+    revision: 3
   title: Animal Político
   path: animal-politico
   image:
@@ -38,9 +35,6 @@ moduleCard:
     title: Animal Politico Logo
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/4jkv3j1JdKoasgoy4GOY4s/b6abf757a5cf7a9a12792ec8983c0059/uW8-SoMi_400x400.jpg"
-  description: With our tools and training we forward new workflows, new techniques,
-    and new possibilities for newsrooms and educators, helping drive innovation across
-    the sector.
   filter_image: false
   logo: true
   link: https://www.animalpolitico.com/
@@ -186,9 +180,9 @@ moduleCard:
 - sys:
     id: 3N9czW5SWc84Iyo6EMMqy8
     created_at: !ruby/object:DateTime 2018-10-03 18:04:46.259000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-03 18:04:46.259000000 Z
+    updated_at: !ruby/object:DateTime 2018-10-07 12:07:25.860000000 Z
     content_type_id: moduleCard
-    revision: 1
+    revision: 2
   title: Lund University
   path: lund-university
   image:
@@ -199,6 +193,8 @@ moduleCard:
     title: Lund University Logo
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/7iXYcaok5amkqqoCcYUsic/90230c90886c1d08e60d69a0eff2763d/8bcTcRrO_400x400.jpg"
+  filter_image: false
+  logo: true
 - sys:
     id: 5bYIMshf5SYsoIAWyOg8IQ
     created_at: !ruby/object:DateTime 2018-10-05 20:07:24.319000000 Z

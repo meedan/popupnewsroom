@@ -125,9 +125,9 @@ newsroom:
 - sys:
     id: 4mUB9YVo0g8skAyMGUkiiS
     created_at: !ruby/object:DateTime 2018-10-03 18:12:05.849000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-05 19:52:47.619000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-12 20:50:13.045000000 Z
     content_type_id: newsroom
-    revision: 6
+    revision: 8
   title: Riksdagsvalet
   short_summary: Working with university, media and technology partners to track misinformation
     and report on the voting process in Sweden's general election.
