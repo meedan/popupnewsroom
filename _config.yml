@@ -46,18 +46,19 @@ exclude:
 #   - Gemfile
   - Gemfile.lock
 #   - node_modules
-#   - vendor/bundle/
+  - vendor/bundle/
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
 
-# Get data from Contentful
+# Get data from Contentful Develop Environment
 contentful:
   output: true
   spaces:
     - updates: 
         space: ENV_CONTENTFUL_PN_SPACE_ID
         access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'update'
         all_entries: true
@@ -65,6 +66,7 @@ contentful:
     - newsrooms: 
         space: ENV_CONTENTFUL_PN_SPACE_ID
         access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'newsroom'
         all_entries: true
@@ -72,6 +74,7 @@ contentful:
     - landingPages: 
         space: ENV_CONTENTFUL_PN_SPACE_ID
         access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'landingPage'
         all_entries: true
@@ -79,6 +82,7 @@ contentful:
     - homepages: 
         space: ENV_CONTENTFUL_PN_SPACE_ID
         access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'homepage'
         all_entries: true
@@ -86,6 +90,7 @@ contentful:
     - stats: 
         space: ENV_CONTENTFUL_PN_SPACE_ID
         access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'stat'
         all_entries: true
@@ -93,6 +98,7 @@ contentful:
     - media: 
         space: ENV_CONTENTFUL_PN_SPACE_ID
         access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'media'
         all_entries: true
@@ -100,6 +106,7 @@ contentful:
     - sections: 
         space: ENV_CONTENTFUL_PN_SPACE_ID
         access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'section'
         all_entries: true
@@ -107,6 +114,7 @@ contentful:
     - colors: 
         space: ENV_CONTENTFUL_PN_SPACE_ID
         access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'color'
         all_entries: true
@@ -114,6 +122,7 @@ contentful:
     - locations: 
         space: ENV_CONTENTFUL_PN_SPACE_ID
         access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'location'
         all_entries: true
@@ -121,6 +130,7 @@ contentful:
     - links: 
         space: ENV_CONTENTFUL_PN_SPACE_ID
         access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'link'
         all_entries: true
@@ -128,6 +138,7 @@ contentful:
     - cards: 
         space: ENV_CONTENTFUL_PN_SPACE_ID
         access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'moduleCard'
         all_entries: true
@@ -135,6 +146,7 @@ contentful:
     - graphics: 
         space: ENV_CONTENTFUL_PN_SPACE_ID
         access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'moduleGraphic'
         all_entries: true
@@ -142,6 +154,7 @@ contentful:
     - images: 
         space: ENV_CONTENTFUL_PN_SPACE_ID
         access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'moduleImage'
         all_entries: true
@@ -149,11 +162,11 @@ contentful:
     - leadImages: 
         space: ENV_CONTENTFUL_PN_SPACE_ID
         access_token: ENV_CONTENTFUL_PN_ACCESS_TOKEN
+        environment: ENV_CONTENTFUL_ENVIRONMENT
         cda_query:
           content_type: 'moduleLeadImage'
         all_entries: true
         destination: 'contentful/spaces/'
-
 
 # Generate pages from Contentful data files
 page_gen-dirs: true
