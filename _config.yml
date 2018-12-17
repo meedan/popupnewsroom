@@ -51,6 +51,11 @@ exclude:
 #   - vendor/gems/
 #   - vendor/ruby/
 
+
+# Server Config options
+livereload: true    # You no longer need to include --livereload
+reload_port: 5678    # If you don't want to use the default port
+
 # Get data from Contentful Develop Environment
 contentful:
   output: true
