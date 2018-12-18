@@ -1,0 +1,10 @@
+<div class="grouped-column">
+    <div class="grouped-column-content">
+    	{% assign forms = site.data.contentful.spaces.forms.form %}
+    	{% for form in forms %}
+  			{% if form.type[0] == 'Contact' %}
+        		{% include contact_form.html %}
+        	{% endif %}
+        {% endfor %}
+    </div>
+</div>
