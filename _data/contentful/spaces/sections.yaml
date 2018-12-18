@@ -411,9 +411,9 @@ section:
 - sys:
     id: 3xIS74Sko8QqOEwuW8g28i
     created_at: !ruby/object:DateTime 2018-10-03 16:33:53.561000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-04 15:10:37.526000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-18 06:16:07.043000000 Z
     content_type_id: section
-    revision: 3
+    revision: 4
   title: Newsrooms
   color:
     sys:
@@ -452,6 +452,18 @@ section:
     content: 'All Pop-Up Newsrooms share a human-centered co-design process with stakeholders,
       and place collaboration at the heart of our work. Pop-Up Newsrooms we''ve initiated
       include:'
+  - sys:
+      id: gdtiba9bOwAwi80OQWmwy
+      created_at: !ruby/object:DateTime 2018-12-18 06:10:53.624000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-18 06:32:32.856000000 Z
+      content_type_id: moduleNewsrooms
+      revision: 3
+    title: List of Newsrooms
+    newsrooms:
+    - sys:
+        id: 4mUB9YVo0g8skAyMGUkiiS
+    - sys:
+        id: 6JqjX8Q5rOwouC02eAyOCS
 - sys:
     id: 3WXlKF1rewSGUyM4YiQKu2
     created_at: !ruby/object:DateTime 2018-10-03 18:05:10.087000000 Z

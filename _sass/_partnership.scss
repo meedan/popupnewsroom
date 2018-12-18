@@ -4,19 +4,23 @@
 .partnership {
 	display: flex;
 	margin-top: $space-medium;
+	align-items: center;
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
 	.partnership {
-		flex-direction: column;
-		.logo {
+		// flex-direction: column;
+		.logo:not(:last-child) {
 			margin-bottom: $space-small/2;
+			margin-right: $space-small;
 		}
 	}
 }
 
-.partnership .logo {
-	margin-right: $space-medium;
+@include responsive('min-width: #{$width-tablet}') {
+	.partnership .logo:not(:last-child) {
+		margin-right: $space-medium;
+	}
 }
 
 .partnership .logo.dig-deeper {

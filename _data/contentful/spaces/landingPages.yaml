@@ -56,9 +56,9 @@ landingPage:
   - sys:
       id: 3xIS74Sko8QqOEwuW8g28i
       created_at: !ruby/object:DateTime 2018-10-03 16:33:53.561000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-04 15:10:37.526000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-18 06:16:07.043000000 Z
       content_type_id: section
-      revision: 3
+      revision: 4
     title: Newsrooms
     color:
       sys:
@@ -68,6 +68,8 @@ landingPage:
         id: 49m7kHg2PCKAsGU2aUU6Iy
     - sys:
         id: 6O3zOTTBlY6Y4kqO6GUsyk
+    - sys:
+        id: gdtiba9bOwAwi80OQWmwy
   - sys:
       id: 6S8ZNK4dK848moCW2aAEOe
       created_at: !ruby/object:DateTime 2018-10-03 15:40:33.490000000 Z

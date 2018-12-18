@@ -100,6 +100,14 @@ $slick-opacity-not-active: 0.25 !default;
     }
 }
 
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+    .slick-prev,
+    .slick-next {
+        width: 20px;
+    }
+}
+
 .slick-prev {
     left: -40px;
     [dir="rtl"] & {
@@ -125,6 +133,15 @@ $slick-opacity-not-active: 0.25 !default;
         [dir="rtl"] & {
             content: $slick-prev-character;
         }
+    }
+}
+
+@media (min-width: 1px) and (max-width: #{$width-tablet}) {
+    .slick-prev {
+        left: -20px;
+    }
+    .slick-next {
+        right: -20px;
     }
 }
 

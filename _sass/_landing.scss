@@ -17,7 +17,7 @@
   background-size: cover;
   background-position: top center;
   background-repeat: no-repeat;
-  height: 120vh;
+  height: 100vh;
 }
 .page-section .p-header:before {
 	position: absolute;
@@ -33,7 +33,7 @@
 	.page-section .p-header {
 		margin-top: 0;
 		// background-size: 200%;
-		height: 100vh;
+		height: 90vh;
 		// background-position: center 80px;
 	}
 }
@@ -41,7 +41,7 @@
 .page-section .p-header-container {
 	font-weight: normal;
 	margin-top: 0;
-	margin-bottom: 0;
+	margin-bottom: $space-medium/2.66;
 	z-index: 2;
 }
 
@@ -52,7 +52,7 @@
 }
 
 @media (min-width: 1px) and (max-width: #{$width-tablet}) {
-	.page-section .p-header-container svg {
+	.page-section .p-header-container h1.logo svg {
 		width: 340px;
 	}
 }
@@ -66,7 +66,6 @@
 .page-section .p-header-container h2 {
 	font-weight: normal;
 	margin-top: 0;
-	margin-bottom: $space-medium/2.66;
   max-width: $page-width;
   font-size: $large-text;
   line-height: $large-line-height;
