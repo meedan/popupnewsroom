@@ -1,0 +1,25 @@
+<div class="grouped-column">
+	<div class="grouped-column-content">
+		{% assign list = site.data.contentful.spaces.moduleNewsrooms.moduleNewsrooms %}
+		{% for item in list %}
+			{% for i in list %}
+				{% if i.sys.id == module.sys.id %}
+					<div class="newsrooms table">
+						<div class="table-header">
+							<div>Newsrooms</div>
+						</div>
+						{% for newsroom in i.newsrooms %}
+							<a class="row" href="/newsrooms/{{ newsroom.url }}">
+								<div class="media-image">
+									<img class="tinted" src="{{ newsroom.hero_image.url | append: '?fl=progressive' }}" />
+								</div>
+								<div class="table-item shrink">{{ newsroom.title }}</div>
+								<div class="table-item expand">{{ newsroom.short_summary }}</div>
+							</a>
+						{% endfor %}
+					</div>
+				{% endif %}
+			{% endfor %}
+		{% endfor %}
+	</div>
+</div>

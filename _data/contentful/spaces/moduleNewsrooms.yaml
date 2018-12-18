@@ -1,0 +1,90 @@
+---
+moduleNewsrooms:
+- sys:
+    id: gdtiba9bOwAwi80OQWmwy
+    created_at: !ruby/object:DateTime 2018-12-18 06:10:53.624000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-18 06:32:32.856000000 Z
+    content_type_id: moduleNewsrooms
+    revision: 3
+  title: List of Newsrooms
+  newsrooms:
+  - sys:
+      id: 4mUB9YVo0g8skAyMGUkiiS
+      created_at: !ruby/object:DateTime 2018-10-03 18:12:05.849000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-12 20:50:13.045000000 Z
+      content_type_id: newsroom
+      revision: 8
+    title: Riksdagsvalet
+    short_summary: Working with university, media and technology partners to track
+      misinformation and report on the voting process in Sweden's general election.
+    description: Pop-Up Newsroom worked with three of Sweden's top journalism schools
+      to cover the 2018 general election in real time, seeking to find, investigate
+      and debunk viral misinformation that could impact people's ability to vote.
+    hero_image:
+      sys:
+        id: 1gypi7Ctumsk0MWGWC2mYa
+        created_at: !ruby/object:DateTime 2018-10-03 18:11:58.987000000 Z
+        updated_at: !ruby/object:DateTime 2018-10-03 18:11:58.987000000 Z
+      title: Riksdagsvalet
+      description: 
+      url: "//images.ctfassets.net/a1gidpdiipum/1gypi7Ctumsk0MWGWC2mYa/2a563337f66105126e31c62948e32e8b/20180908_133309.jpg"
+    date: September 5-9, 2018
+    external_link:
+      sys:
+        id: LXTcuYJWA6oieu0s88Yik
+    location:
+      sys:
+        id: iue4R8eUmWqacKIcS8gSc
+    modules:
+    - sys:
+        id: 6ujCtLNqrCYKQkUoKy2qUC
+    sections:
+    - sys:
+        id: 3WXlKF1rewSGUyM4YiQKu2
+    color:
+      sys:
+        id: 1z7NvOuycoMOcCKYuQuq0U
+    url: riksdagsvalet
+  - sys:
+      id: 6JqjX8Q5rOwouC02eAyOCS
+      created_at: !ruby/object:DateTime 2018-09-29 18:25:40.734000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-05 19:56:34.725000000 Z
+      content_type_id: newsroom
+      revision: 10
+    title: Verificado
+    short_summary: Working with over 90 Mexican partners to design and implement a
+      national-profile anti-misinformation initiative around elections in Mexico.
+    description: In mid-March 2018, a group of 100 journalists from around Mexico
+      gathered in Mexico City to design and launch Verificado 2018 — a collaborative
+      election reporting initiative that seeks to debunk viral misinformation, fact
+      check politicians’ claims, and help Mexican audiences sort fact from fiction
+      online ahead of crucial national elections.
+    hero_image:
+      sys:
+        id: K4Wtyp0GKAoia2cGq0AWo
+        created_at: !ruby/object:DateTime 2018-09-29 09:38:14.464000000 Z
+        updated_at: !ruby/object:DateTime 2018-09-29 09:38:14.464000000 Z
+      title: Verificado Hero Image
+      description: Stand up meeting to start the day June 30, 2018
+      url: "//images.ctfassets.net/a1gidpdiipum/K4Wtyp0GKAoia2cGq0AWo/271cecb5406972630e62e11d5b1c12ac/Stand-up-meeting-to-start-the-day-June-30_-2018.jpg"
+    date: March - July 2018
+    external_link:
+      sys:
+        id: 3NZZdwz2KQmWu6Guo6mSug
+    location:
+      sys:
+        id: 7B0D8tpJMAO4o26Q2eUgam
+    modules:
+    - sys:
+        id: 6uejQOKdTUmSessysoCkuO
+    - sys:
+        id: 62sPpqKmwo0uCUeeK8q486
+    - sys:
+        id: 6xwm8dOCasY8GyQWMeaUCU
+    sections:
+    - sys:
+        id: 4VwfKQCz1Swo8GM0K6COmM
+    color:
+      sys:
+        id: 7GOkr6iXkIQEq8IqmMm2Wo
+    url: verificado
