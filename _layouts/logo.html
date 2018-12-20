@@ -1,7 +1,8 @@
 {% assign title = include.title %}
-{% assign graphic = include.image %}
+{% assign count = include.count | default: '' %}
+{% assign logo = include.image %}
 {% assign link = include.link | default: '' %}
 
 <a class="logo {{ title | slugify }}" href="{{ link }}" title="{{ title }}">
-	<img src="{{ graphic }}" alt="{{ title }}" />
+	<img src="{{ logo.url }}" alt="{{ title }}" />
 </a>

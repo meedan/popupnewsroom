@@ -19,11 +19,11 @@ link:
 - sys:
     id: LXTcuYJWA6oieu0s88Yik
     created_at: !ruby/object:DateTime 2018-10-03 17:47:24.130000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-03 17:47:24.130000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-19 23:43:16.183000000 Z
     content_type_id: link
-    revision: 1
-  label: riksdagsvalet.popup.news
-  url: http://riksdagsvalet.popup.news
+    revision: 2
+  label: riksdagsvalet18.popup.news
+  url: https://riksdagsvalet18.popup.news/
 - sys:
     id: 1LVwNSoU5a2oGOM2eK2q2k
     created_at: !ruby/object:DateTime 2018-10-04 15:53:34.120000000 Z

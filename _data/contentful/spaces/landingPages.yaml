@@ -3,9 +3,9 @@ landingPage:
 - sys:
     id: 56dG8WJyH6ykKkUmACQYII
     created_at: !ruby/object:DateTime 2018-10-02 15:20:51.202000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-05 19:37:36.757000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-20 00:48:12.539000000 Z
     content_type_id: landingPage
-    revision: 10
+    revision: 12
   title: Pop-Up Newsroom
   url: "/"
   description: Pop-Up Newsroom innovates collaborative reporting initiatives in different
@@ -18,6 +18,45 @@ landingPage:
     title: Pop-Up Newsroom
     description: 
     url: "//images.ctfassets.net/a1gidpdiipum/5wKmEY1ugwGEo6m8EQgAMw/7540011ba6bc901547522bbd1cccfaa2/P3070176.jpg"
+  logos:
+  - sys:
+      id: 5Z2PXje71moiw0Wg6iWqyc
+      created_at: !ruby/object:DateTime 2018-12-19 23:53:24.038000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-19 23:53:24.038000000 Z
+      content_type_id: moduleCard
+      revision: 1
+    title: Meedan
+    path: meedan
+    image:
+      sys:
+        id: 1j29uYTedY2woqyYMWYcsw
+        created_at: !ruby/object:DateTime 2018-12-18 05:53:41.300000000 Z
+        updated_at: !ruby/object:DateTime 2018-12-18 05:53:41.300000000 Z
+      title: meedan logo
+      description: 
+      url: "//images.ctfassets.net/a1gidpdiipum/1j29uYTedY2woqyYMWYcsw/e589ba945f1fec92f5ac4bcc7867e86e/meedan_h_1.svg"
+    filter_image: false
+    logo: true
+    link: https://meedan.com
+  - sys:
+      id: 3EYOTSkvVCsQMY4MiYaeqa
+      created_at: !ruby/object:DateTime 2018-12-19 23:54:25.397000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-19 23:54:25.397000000 Z
+      content_type_id: moduleCard
+      revision: 1
+    title: Dig Deeper
+    path: dig-deeper
+    image:
+      sys:
+        id: 4uhJnrs0CQMqsQ6CkYS4mw
+        created_at: !ruby/object:DateTime 2018-12-18 05:54:02.154000000 Z
+        updated_at: !ruby/object:DateTime 2018-12-18 05:54:02.154000000 Z
+      title: Dig Deeper Logo
+      description: 
+      url: "//images.ctfassets.net/a1gidpdiipum/4uhJnrs0CQMqsQ6CkYS4mw/c6e737562fbe70c4779e35d59754afe9/DD_logo_colour_1.svg"
+    filter_image: false
+    logo: true
+    link: http://digdeepermedia.com
   sections:
   - sys:
       id: PjvArwoskmoSq8qmmsecC
@@ -73,9 +112,9 @@ landingPage:
   - sys:
       id: 6S8ZNK4dK848moCW2aAEOe
       created_at: !ruby/object:DateTime 2018-10-03 15:40:33.490000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-03 15:46:45.725000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-19 23:44:25.286000000 Z
       content_type_id: section
-      revision: 2
+      revision: 3
     title: Experience
     color:
       sys:
@@ -91,6 +130,8 @@ landingPage:
         id: 1nl2tyBwcA6IoaG2yCkUy0
     - sys:
         id: 5I9llJRNFSy0wYe6iUwgKi
+    - sys:
+        id: 55hn1XH4BGaSwC6w6iiIMS
   - sys:
       id: 7505Qq4SS4iuWOoMMeCO6u
       created_at: !ruby/object:DateTime 2018-10-02 15:58:00.176000000 Z
@@ -125,3 +166,4 @@ landingPage:
         id: 5PmiS88SB2sqAwOawmeACG
     - sys:
         id: 36snCl9odOWsY6wKyk088I
+  homepage: true
