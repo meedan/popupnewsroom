@@ -7,9 +7,12 @@
             {% for logo in module.logos %}
 				{% for card in cards %}
 					{% if logo.sys.id == card.sys.id %}
-						<a class="logo {{ card.title | slugify }}" href="{{ card.link }}" title="{{ card.title }}">
-							<img src="{{ card.image.url }}" alt="{{ card.image.title }}" />
-						</a>
+						{% 
+							include logo.html 
+							image=card.image.url
+							title=card.title
+							link=card.link
+					    %}
 					{% endif %}
 				{% endfor %}
 			{% endfor %}

@@ -11,9 +11,9 @@ homepage:
     sys:
       id: 56dG8WJyH6ykKkUmACQYII
       created_at: !ruby/object:DateTime 2018-10-02 15:20:51.202000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-05 19:37:36.757000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-20 00:13:57.801000000 Z
       content_type_id: landingPage
-      revision: 10
+      revision: 11
     title: Pop-Up Newsroom
     url: "/"
     description: Pop-Up Newsroom innovates collaborative reporting initiatives in
@@ -26,6 +26,11 @@ homepage:
       title: Pop-Up Newsroom
       description: 
       url: "//images.ctfassets.net/a1gidpdiipum/5wKmEY1ugwGEo6m8EQgAMw/7540011ba6bc901547522bbd1cccfaa2/P3070176.jpg"
+    logos:
+    - sys:
+        id: 5Z2PXje71moiw0Wg6iWqyc
+    - sys:
+        id: 3EYOTSkvVCsQMY4MiYaeqa
     sections:
     - sys:
         id: PjvArwoskmoSq8qmmsecC

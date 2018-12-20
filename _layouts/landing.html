@@ -18,7 +18,7 @@
 			<div class="p-header" style="background-image:url({{ page.cover_image.url | append: '?fl=progressive' }})">
         <div class="p-header-container">
       		 <h1 class="logo">
-      			{% include logo.html %}
+      			{% include popupnewsroom_logo.html %}
       			<span class="logo-text">
 				    	<span class="logo-text-original">{{ page.title }}</span>
 				  	</span>
@@ -26,9 +26,19 @@
       		<h2>
       			{{ page.description }}
       		</h2>
-          <div class="partnership">
-           {% include meedan_dig-deeper_logos.html %}
-          </div>
+
+          {% if page.logos %}
+            <div class="partnership">
+              {% for logo in page.logos %}
+                {% 
+                  include logo.html 
+                  image=logo.image.url
+                  title=logo.title
+                  link=logo.link
+                %}
+              {% endfor %}
+            </div>
+          {% endif %}
       	</div>
       </div>
       {% if homepage == true %}
