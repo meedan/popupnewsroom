@@ -3,9 +3,9 @@ landingPage:
 - sys:
     id: 56dG8WJyH6ykKkUmACQYII
     created_at: !ruby/object:DateTime 2018-10-02 15:20:51.202000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-20 00:13:57.801000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-20 00:48:12.539000000 Z
     content_type_id: landingPage
-    revision: 11
+    revision: 12
   title: Pop-Up Newsroom
   url: "/"
   description: Pop-Up Newsroom innovates collaborative reporting initiatives in different
@@ -166,3 +166,4 @@ landingPage:
         id: 5PmiS88SB2sqAwOawmeACG
     - sys:
         id: 36snCl9odOWsY6wKyk088I
+  homepage: true

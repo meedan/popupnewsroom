@@ -1,13 +1,10 @@
 <!-- Set landing page as homepage -->
-{% assign homepage = site.data.contentful.spaces.homepages.homepage %}
 {% assign lps = site.data.contentful.spaces.landingPages.landingPage %}
 {% for lp in lps %}
-  {% for hp in homepage %}
-    {% if lp.sys.id == hp.landing_page.sys.id  %}
-      {% assign page = lp %}
-      {% assign homepage = true %}
-    {% endif %}
-  {% endfor %}
+  {% if lp.homepage == true  %}
+    {% assign page = lp %}
+    {% assign homepage = true %}
+  {% endif %}
 {% endfor %}
 <!DOCTYPE html>
 <html>
