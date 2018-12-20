@@ -254,9 +254,9 @@ section:
 - sys:
     id: 6S8ZNK4dK848moCW2aAEOe
     created_at: !ruby/object:DateTime 2018-10-03 15:40:33.490000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-03 15:46:45.725000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-19 23:44:25.286000000 Z
     content_type_id: section
-    revision: 2
+    revision: 3
   title: Experience
   color:
     sys:
@@ -337,6 +337,19 @@ section:
       verification, developing workflows and technologies that have been deployed
       to cover events and elections around the world, from the award winning Electionland
       (US) to Verificado (Mexico).
+  - sys:
+      id: 55hn1XH4BGaSwC6w6iiIMS
+      created_at: !ruby/object:DateTime 2018-12-18 05:54:08.051000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-20 00:02:41.699000000 Z
+      content_type_id: moduleLogos
+      revision: 3
+    title: Meedan + Dig Deeper
+    logos:
+    - sys:
+        id: 5Z2PXje71moiw0Wg6iWqyc
+    - sys:
+        id: 3EYOTSkvVCsQMY4MiYaeqa
+    column: true
 - sys:
     id: 1VZNeTT3lqCiIICeoMoysm
     created_at: !ruby/object:DateTime 2018-10-03 16:09:30.454000000 Z

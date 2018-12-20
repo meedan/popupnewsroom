@@ -1,0 +1,20 @@
+{% assign cards = site.data.contentful.spaces.cards.moduleCard %}
+{% if module.column == true %}
+	<div class="grouped-column">
+	<div class="grouped-column-content">
+{% endif %}    	
+        <div class="partnership">
+            {% for logo in module.logos %}
+				{% for card in cards %}
+					{% if logo.sys.id == card.sys.id %}
+						<a class="logo {{ card.title | slugify }}" href="{{ card.link }}" title="{{ card.title }}">
+							<img src="{{ card.image.url }}" alt="{{ card.image.title }}" />
+						</a>
+					{% endif %}
+				{% endfor %}
+			{% endfor %}
+        </div>
+{% if module.column == true %}
+</div>
+</div>
+{% endif %}

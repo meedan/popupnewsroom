@@ -253,3 +253,41 @@ moduleCard:
   filter_image: false
   logo: true
   link: https://twitter.com/ajplus
+- sys:
+    id: 5Z2PXje71moiw0Wg6iWqyc
+    created_at: !ruby/object:DateTime 2018-12-19 23:53:24.038000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-19 23:53:24.038000000 Z
+    content_type_id: moduleCard
+    revision: 1
+  title: Meedan
+  path: meedan
+  image:
+    sys:
+      id: 1j29uYTedY2woqyYMWYcsw
+      created_at: !ruby/object:DateTime 2018-12-18 05:53:41.300000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-18 05:53:41.300000000 Z
+    title: meedan logo
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/1j29uYTedY2woqyYMWYcsw/e589ba945f1fec92f5ac4bcc7867e86e/meedan_h_1.svg"
+  filter_image: false
+  logo: true
+  link: https://meedan.com
+- sys:
+    id: 3EYOTSkvVCsQMY4MiYaeqa
+    created_at: !ruby/object:DateTime 2018-12-19 23:54:25.397000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-19 23:54:25.397000000 Z
+    content_type_id: moduleCard
+    revision: 1
+  title: Dig Deeper
+  path: dig-deeper
+  image:
+    sys:
+      id: 4uhJnrs0CQMqsQ6CkYS4mw
+      created_at: !ruby/object:DateTime 2018-12-18 05:54:02.154000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-18 05:54:02.154000000 Z
+    title: Dig Deeper Logo
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/4uhJnrs0CQMqsQ6CkYS4mw/c6e737562fbe70c4779e35d59754afe9/DD_logo_colour_1.svg"
+  filter_image: false
+  logo: true
+  link: http://digdeepermedia.com

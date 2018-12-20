@@ -73,9 +73,9 @@ landingPage:
   - sys:
       id: 6S8ZNK4dK848moCW2aAEOe
       created_at: !ruby/object:DateTime 2018-10-03 15:40:33.490000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-03 15:46:45.725000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-19 23:44:25.286000000 Z
       content_type_id: section
-      revision: 2
+      revision: 3
     title: Experience
     color:
       sys:
@@ -91,6 +91,8 @@ landingPage:
         id: 1nl2tyBwcA6IoaG2yCkUy0
     - sys:
         id: 5I9llJRNFSy0wYe6iUwgKi
+    - sys:
+        id: 55hn1XH4BGaSwC6w6iiIMS
   - sys:
       id: 7505Qq4SS4iuWOoMMeCO6u
       created_at: !ruby/object:DateTime 2018-10-02 15:58:00.176000000 Z
