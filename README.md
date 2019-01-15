@@ -55,8 +55,8 @@ For example, the contact form's html is in [contact_form.html](https://github.co
 
 Now to add a new form:
 
-1. Modify the Content Model of `[Form](https://app.contentful.com/spaces/a1gidpdiipum/content_types/form/fields)` by adding another type in the validations tab where it says _Accept only specified values_. You will only see one existing type `Contact`.
+1. Modify the Content Model of [Form](https://app.contentful.com/spaces/a1gidpdiipum/content_types/form/fields) by adding another type in the validations tab where it says _Accept only specified values_. You will only see one existing type `Contact`.
 
-2. Create a new form markup in a file as done in [contact_form.html](https://github.com/meedan/popupnewsroom/blob/master/_includes/contact_form.html). Netlify uses the form `name` attribute to group the submissions in its web app. See the submissions [here](https://app.netlify.com/sites/popupnewsroom/forms).
+2. Create a new form markup in a file as done in [`contact_form.html`](https://github.com/meedan/popupnewsroom/blob/master/_includes/contact_form.html). Netlify uses the form `name` attribute to group the submissions in its web app. See the submissions [here](https://app.netlify.com/sites/popupnewsroom/forms).
 
-3. Now modify the condition in `[module_form.html](https://github.com/meedan/popupnewsroom/blob/master/_includes/module_form.html)` to include the new form file based on the form type you defined in the first step.
+3. Now modify the condition in [`module_form.html`](https://github.com/meedan/popupnewsroom/blob/master/_includes/module_form.html) to include the new form file based on the form type you defined in the first step.
