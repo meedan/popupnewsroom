@@ -21,6 +21,12 @@ And run `source ~/.bashrc` or open new terminal to enable changes.
 5. `jekyll serve` to serve the site at [http://127.0.0.1:4000](http://127.0.0.1:4000)
 6. Edit .scss, .html and .js files. The browser should live-reload.
 
+## Page Generation from Contentful Data
+
+To generate pages in Jekyll based on Contentful data we are using the [jekyll-datapage_gen](https://github.com/avillafiorita/jekyll-datapage_gen) plugin. Specify in `_config.yml` the data files for which you want individual page to be generated. See plugin's documentation and our `config.yml` for the settings.
+
+For Popupnewsroom, we are generating newsroom and landing pages. For newsroom, it takes the layout template `newsroom.html` and automatically generates pages based on the entries in `newsrooms.yaml` that were imported from Contentful. 
+
 ## Contentful Space Environment: Develop
 
 Contentful gives us the ability to have multiple space environments. By default, every space has one environment, called *master*. Addtional environments can be created to have a sandbox environment that would be isolated from master. For Popup.news we have a *develop* environment that you can use to try out changes before applying them to master. The *develop* environment is mapped to the develop branch and is deployed to Netlify automatically at: [https://develop--popupnewsroom.netlify.com](https://develop--popupnewsroom.netlify.com).
@@ -42,3 +48,15 @@ See [Continuous Deployment](https://www.netlify.com/docs/continuous-deployment) 
 ## Handling Forms
 
 Netlify comes with built-in form handling. Popup.news uses this functionality to capture the form data and posts a notification to Slack. See [Netlify Forms](https://www.netlify.com/docs/form-handling/) to learn more. 
+
+The form's markup has to be hard-coded in a jekyll template file with a form tag defined per Netlify's documentation.
+
+For example, the contact form's html is in [contact_form.html](https://github.com/meedan/popupnewsroom/blob/master/_includes/contact_form.html) and this file is included based on the form type specified in Contentful. The condition is set in [module_form.html](https://github.com/meedan/popupnewsroom/blob/master/_includes/module_form.html).
+
+Now to add a new form:
+
+1. Modify the Content Model of `[Form](https://app.contentful.com/spaces/a1gidpdiipum/content_types/form/fields)` by adding another type in the validations tab where it says _Accept only specified values_. You will only see one existing type `Contact`.
+
+2. Create a new form markup in a file as done in [contact_form.html](https://github.com/meedan/popupnewsroom/blob/master/_includes/contact_form.html). Netlify uses the form `name` attribute to group the submissions in its web app. See the submissions [here](https://app.netlify.com/sites/popupnewsroom/forms).
+
+3. Now modify the condition in `[module_form.html](https://github.com/meedan/popupnewsroom/blob/master/_includes/module_form.html)` to include the new form file based on the form type you defined in the first step.
