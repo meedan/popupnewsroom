@@ -1,12 +1,12 @@
 ---
 moduleNewsrooms:
 - sys:
-    id: gdtiba9bOwAwi80OQWmwy
-    created_at: !ruby/object:DateTime 2018-12-18 06:10:53.624000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-18 06:32:32.856000000 Z
+    id: yLBTPRMksSc2ASyEm4uA8
+    created_at: !ruby/object:DateTime 2018-12-18 06:38:59.483000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-18 06:38:59.483000000 Z
     content_type_id: moduleNewsrooms
-    revision: 3
-  title: List of Newsrooms
+    revision: 1
+  title: List newsrooms
   newsrooms:
   - sys:
       id: 4mUB9YVo0g8skAyMGUkiiS
@@ -88,3 +88,40 @@ moduleNewsrooms:
       sys:
         id: 7GOkr6iXkIQEq8IqmMm2Wo
     url: verificado
+  - sys:
+      id: 3GaBxvM4Zy8ACoM8ImeMos
+      created_at: !ruby/object:DateTime 2018-10-04 15:54:35.915000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-05 19:52:30.996000000 Z
+      content_type_id: newsroom
+      revision: 3
+    title: UK General Elections
+    short_summary: Reporting on the voting process in the UK's snap general election
+      (2017)
+    description: 'Reporting on the voting process in the UK''s snap general election
+      (2017)
+
+'
+    hero_image:
+      sys:
+        id: 2YXXwCjoM8wYCeIkEYYYm2
+        created_at: !ruby/object:DateTime 2018-10-04 15:54:29.373000000 Z
+        updated_at: !ruby/object:DateTime 2018-10-04 15:54:29.373000000 Z
+      title: PopUpGE2017 2-3
+      description: 
+      url: "//images.ctfassets.net/a1gidpdiipum/2YXXwCjoM8wYCeIkEYYYm2/b19307d269be56e88b2dac603f2c0071/PopUpGE2017_2-3.jpg"
+    date: June 8, 2017
+    external_link:
+      sys:
+        id: 1LVwNSoU5a2oGOM2eK2q2k
+    location:
+      sys:
+        id: 1CXaGERRsEQsu0a6SMU0AE
+    modules:
+    - sys:
+        id: 4dhclzhYzK2EAqoISKWuyM
+    - sys:
+        id: 7J2xKbHpXqaukCI4wmGym4
+    color:
+      sys:
+        id: 1z7NvOuycoMOcCKYuQuq0U
+    url: uk-general-elections

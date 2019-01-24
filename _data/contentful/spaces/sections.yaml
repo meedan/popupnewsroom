@@ -254,7 +254,7 @@ section:
 - sys:
     id: 6S8ZNK4dK848moCW2aAEOe
     created_at: !ruby/object:DateTime 2018-10-03 15:40:33.490000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-19 23:44:25.286000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-20 00:59:10.387000000 Z
     content_type_id: section
     revision: 3
   title: Experience
@@ -338,24 +338,24 @@ section:
       to cover events and elections around the world, from the award winning Electionland
       (US) to Verificado (Mexico).
   - sys:
-      id: 55hn1XH4BGaSwC6w6iiIMS
-      created_at: !ruby/object:DateTime 2018-12-18 05:54:08.051000000 Z
-      updated_at: !ruby/object:DateTime 2018-12-20 00:02:41.699000000 Z
+      id: leujrxA1e8s0M2eqE4uUy
+      created_at: !ruby/object:DateTime 2018-12-20 00:59:06.646000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-20 00:59:06.646000000 Z
       content_type_id: moduleLogos
-      revision: 3
+      revision: 1
     title: Meedan + Dig Deeper
     logos:
     - sys:
-        id: 5Z2PXje71moiw0Wg6iWqyc
+        id: 6NLVXtHpjquSYC0EAwQGoi
     - sys:
-        id: 3EYOTSkvVCsQMY4MiYaeqa
+        id: 4cXzhg9vHiswEuOU6e60GS
     column: true
 - sys:
     id: 1VZNeTT3lqCiIICeoMoysm
     created_at: !ruby/object:DateTime 2018-10-03 16:09:30.454000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-18 04:02:51.269000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-18 05:44:58.461000000 Z
     content_type_id: section
-    revision: 4
+    revision: 3
   title: Say hi
   color:
     sys:
@@ -386,26 +386,6 @@ section:
       secure funding opportunities, manage the projects and partners and create shareable
       resources at all stages.
   - sys:
-      id: p46I1yx3564qgG8QCw0Im
-      created_at: !ruby/object:DateTime 2018-10-03 16:09:22.672000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-03 16:09:22.672000000 Z
-      content_type_id: moduleText
-      revision: 1
-    title: Say hi
-    content: To get involved in Pop-Up Newsroom or to get more details please fill
-      the following form and one of our representatives will contact you once we receive
-      your request.
-  - sys:
-      id: 5PmiS88SB2sqAwOawmeACG
-      created_at: !ruby/object:DateTime 2018-12-18 02:25:18.446000000 Z
-      updated_at: !ruby/object:DateTime 2018-12-18 02:25:55.300000000 Z
-      content_type_id: moduleForm
-      revision: 2
-    title: Say hi
-    form:
-      sys:
-        id: 19Np7aI1sYeWUeUgmIkgG
-  - sys:
       id: 36snCl9odOWsY6wKyk088I
       created_at: !ruby/object:DateTime 2018-10-04 13:55:05.002000000 Z
       updated_at: !ruby/object:DateTime 2018-10-04 13:58:41.746000000 Z
@@ -421,10 +401,30 @@ section:
       description: 
       url: "//images.ctfassets.net/a1gidpdiipum/1jWlhMIGDAWmGMCcU0W0M2/215fb9e418868d80e4dbaa58d13b20b1/Group_2.svg"
     full_width: true
+  - sys:
+      id: p46I1yx3564qgG8QCw0Im
+      created_at: !ruby/object:DateTime 2018-10-03 16:09:22.672000000 Z
+      updated_at: !ruby/object:DateTime 2018-10-03 16:09:22.672000000 Z
+      content_type_id: moduleText
+      revision: 1
+    title: Say hi
+    content: To get involved in Pop-Up Newsroom or to get more details please fill
+      the following form and one of our representatives will contact you once we receive
+      your request.
+  - sys:
+      id: 7uvD1DDoGcKKGo2Ea4qqeG
+      created_at: !ruby/object:DateTime 2018-12-18 05:44:54.009000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-18 05:44:54.009000000 Z
+      content_type_id: moduleForm
+      revision: 1
+    title: Say hi
+    form:
+      sys:
+        id: 5s0f69JAAMaOm6kCquYwyC
 - sys:
     id: 3xIS74Sko8QqOEwuW8g28i
     created_at: !ruby/object:DateTime 2018-10-03 16:33:53.561000000 Z
-    updated_at: !ruby/object:DateTime 2018-12-18 06:16:07.043000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-18 06:39:25.760000000 Z
     content_type_id: section
     revision: 4
   title: Newsrooms
@@ -466,17 +466,19 @@ section:
       and place collaboration at the heart of our work. Pop-Up Newsrooms we''ve initiated
       include:'
   - sys:
-      id: gdtiba9bOwAwi80OQWmwy
-      created_at: !ruby/object:DateTime 2018-12-18 06:10:53.624000000 Z
-      updated_at: !ruby/object:DateTime 2018-12-18 06:32:32.856000000 Z
+      id: yLBTPRMksSc2ASyEm4uA8
+      created_at: !ruby/object:DateTime 2018-12-18 06:38:59.483000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-18 06:38:59.483000000 Z
       content_type_id: moduleNewsrooms
-      revision: 3
-    title: List of Newsrooms
+      revision: 1
+    title: List newsrooms
     newsrooms:
     - sys:
         id: 4mUB9YVo0g8skAyMGUkiiS
     - sys:
         id: 6JqjX8Q5rOwouC02eAyOCS
+    - sys:
+        id: 3GaBxvM4Zy8ACoM8ImeMos
 - sys:
     id: 3WXlKF1rewSGUyM4YiQKu2
     created_at: !ruby/object:DateTime 2018-10-03 18:05:10.087000000 Z

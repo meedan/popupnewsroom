@@ -39,23 +39,21 @@ media:
 - sys:
     id: 1CcAn8KLgAuuSKiG00qgqg
     created_at: !ruby/object:DateTime 2018-10-03 15:33:12.202000000 Z
-    updated_at: !ruby/object:DateTime 2018-10-03 15:33:12.202000000 Z
+    updated_at: !ruby/object:DateTime 2018-12-18 19:51:23.763000000 Z
     content_type_id: media
-    revision: 1
+    revision: 3
   caption_title: Collaboration Against Misinformation
   caption: At the Verificado 2018 Pop-Up Newsroom, we worked with over 100 journalists
     from across Mexico to design collaborative processes for monitoring and debunking
     misinformation spread via social networks.
   image:
     sys:
-      id: 5ZlapFhoROAs08AaAqEga2
-      created_at: !ruby/object:DateTime 2018-10-03 15:33:03.955000000 Z
-      updated_at: !ruby/object:DateTime 2018-10-03 15:33:03.955000000 Z
-    title: Tom at Verificado 2018
-    description: At the Verificado 2018 Pop-Up Newsroom, we worked with over 100 journalists
-      from across Mexico to design collaborative processes for monitoring and debunking
-      misinformation spread via social networks.
-    url: "//images.ctfassets.net/a1gidpdiipum/5ZlapFhoROAs08AaAqEga2/ce288f228d37aaee04b820c3bdd63929/P3070187.jpg"
+      id: 5u9SBUwnN6MK8WwUGKQAmy
+      created_at: !ruby/object:DateTime 2018-12-18 19:51:11.093000000 Z
+      updated_at: !ruby/object:DateTime 2018-12-18 19:51:11.093000000 Z
+    title: IMG 20180701 144520-3
+    description: 
+    url: "//images.ctfassets.net/a1gidpdiipum/5u9SBUwnN6MK8WwUGKQAmy/9518d10e5f06c64386e7ca075c24f2a6/IMG_20180701_144520-3.jpg"
 - sys:
     id: 3601iQNVFua86qiCE8UwE2
     created_at: !ruby/object:DateTime 2018-10-03 15:36:44.089000000 Z
