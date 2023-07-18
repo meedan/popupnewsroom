@@ -53,6 +53,9 @@ GEM
     jekyll-contentful-data-import (1.7.0)
       contentful (~> 2.1)
       jekyll (>= 2.5.0, < 4)
+    jekyll-livereload (0.2.2)
+      em-websocket (~> 0.5)
+      jekyll (~> 3.0)
     jekyll-redirect-from (0.14.0)
       jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
@@ -75,7 +78,7 @@ GEM
     pathutil (0.16.1)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
-    rake (12.3.1)
+    rake (12.3.3)
     rb-fsevent (0.10.3)
     rb-inotify (0.9.10)
       ffi (>= 0.5.0, < 2)
@@ -98,6 +101,7 @@ DEPENDENCIES
   contentful_bootstrap
   jekyll (~> 3.0)
   jekyll-contentful-data-import
+  jekyll-livereload
   jekyll-redirect-from
   jekyll-seo-tag
   rake
